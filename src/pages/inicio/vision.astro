@@ -1,0 +1,41 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Lead Generation Landing Page Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero
+    tagline="Líderes en Atención Médica"
+    title="Líderes en Atención Médica Domiciliaria en Bogotá"
+    subtitle="Aspiramos a ser reconocidos como la principal opción en <strong>atención médica a domicilio</strong>, destacándonos por nuestros <strong>servicios competentes</strong> y la satisfacción de nuestros pacientes."
+    actions={[
+      { variant: 'primary', text: 'Call to Action', href: '#', icon: 'tabler:square-rounded-arrow-right' },
+      { text: 'Learn more', href: '#' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1597423498219-04418210827d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80',
+      alt: 'Magnet attracting screws. Lead generation landing page demo',
+    }}
+  />
+
+  <CallToAction
+    title="Construyendo un Futuro Saludable,<br> Desde Casa"
+    subtitle="Nuestra visión es convertirnos en un referente de confianza para todos los bogotanos que necesiten <strong>médicos a domicilio</strong>, garantizando un servicio que cuida de ti y tu familia."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Download Template',
+        href: 'https://github.com/onwidget/astrowind',
+        icon: 'tabler:download',
+      },
+    ]}
+  />
+</Layout>

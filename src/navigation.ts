@@ -3,85 +3,114 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Inicio',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: '¿Quienes somos?',
+          href: getPermalink('/inicio/quienes-somos'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Mision',
+          href: getPermalink('/inicio/mision'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Vision',
+          href: getPermalink('/inicio/vision'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Filosofia',
+          href: getPermalink('/inicio/filosofia'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Servicios medicos',
       links: [
         {
-          text: 'Features (Anchor Link)',
+          text: 'Caracteristica (Anclado)',
           href: getPermalink('/#features'),
         },
         {
-          text: 'Services',
+          text: 'Teleconsulta médica',
           href: getPermalink('/services'),
         },
         {
-          text: 'Pricing',
+          text: 'Electrocardiografía básica',
           href: getPermalink('/pricing'),
         },
         {
-          text: 'About us',
+          text: 'Lavado de oídos',
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
+          text: 'Suero multivitamínico',
           href: getPermalink('/contact'),
         },
         {
-          text: 'Terms',
+          text: 'Sutura y retiro de puntos',
           href: getPermalink('/terms'),
         },
         {
-          text: 'Privacy policy',
+          text: 'Retiro y colocación de sonda vesical',
+          href: getPermalink('/privacy'),
+        },
+        {
+          text: 'Atención a pacientes con COVID-19',
+          href: getPermalink('/privacy'),
+        },
+        {
+          text: 'Extracción y cuidado para uñas encarnadas',
+          href: getPermalink('/privacy'),
+        },
+        {
+          text: 'Cura de heridas: simples y complejas',
+          href: getPermalink('/privacy'),
+        },
+        {
+          text: 'Valoración medica domiciliaria',
           href: getPermalink('/privacy'),
         },
       ],
     },
     {
-      text: 'Landing',
+      text: 'Servicios de Enfermería',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'Toma de signos vitales',
           href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Long-form Sales',
+          text: 'Inyectología a domicilio',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
+          text: 'Enfermería a nivel domiciliario y hospitalario',
           href: getPermalink('/landing/click-through'),
         },
         {
-          text: 'Product Details (or Services)',
+          text: 'Acompañamiento a citas médicas',
           href: getPermalink('/landing/product'),
         },
+      ],
+    },
+    {
+      text: 'Laboratorio Clínico',
+      links: [
         {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
+          text: 'Laboratorio a domicilio',
+          href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          text: 'Toma de muestras a domicilio',
+          href: getPermalink('/landing/sales'),
+        },
+        {
+          text: 'Prueba de antígeno a domicilio',
+          href: getPermalink('/landing/click-through'),
+        },
+        {
+          text: 'Toma de muestra PCR Covid-19 a domicilio (Hisopado nasofaringeo)',
+          href: getPermalink('/landing/product'),
         },
       ],
     },
@@ -109,10 +138,6 @@ export const headerData = {
           href: getPermalink('astro', 'tag'),
         },
       ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
     },
   ],
   actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],

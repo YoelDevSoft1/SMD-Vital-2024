@@ -1,0 +1,40 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Click-through Landing Page Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2
+    tagline="Nuestra Misión"
+    title="Nuestra Misión: Cuidar de Ti, Donde Estés"
+    subtitle="Nuestra misión en SMD Vital es proporcionar servicios médicos a domicilio de alta calidad, garantizando atención personalizada y rápida en todo momento."
+    actions={[
+      { variant: 'primary', text: 'Call to Action', href: '#', icon: 'tabler:square-rounded-arrow-right' },
+      { text: 'Learn more', href: '#' },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Click-through Landing Page Hero Image',
+    }}
+  />
+
+  <CallToAction
+    title="Atención Médica en Casa<br> Confiable y Segura"
+    subtitle="Nuestro objetivo es ofrecer un servicio que supere tus expectativas, brindando un equipo de médicos a domicilio capacitado y comprometido con tu bienestar. ¡Agenda tu visita hoy mismo!"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Download Template',
+        href: 'https://github.com/onwidget/astrowind',
+        icon: 'tabler:download',
+      },
+    ]}
+  />
+</Layout>
