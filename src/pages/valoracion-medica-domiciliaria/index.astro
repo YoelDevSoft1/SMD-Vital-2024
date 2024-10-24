@@ -2,9 +2,9 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Header from '~/components/widgets/Header.astro';
-import Hero from '~/components/widgets/Hero2.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import Features from '~/components/widgets/Features.astro';
-import Steps from '~/components/widgets/Steps2.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
 import Pricing from '~/components/widgets/Pricing.astro';
 
@@ -13,7 +13,9 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
-  title: 'SaaS Landing Page',
+  title: 'Servicios Médicos Domiciliarios en Bogotá | SMD Vital',
+  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Olvídate del tráfico y las largas esperas en salas de espera, ¡contáctanos!',
+  ignoreTitleTemplate: true,
 };
 ---
 
@@ -39,7 +41,7 @@ const metadata = {
 
   <!-- Hero2 Widget ******************* -->
 
-  <Hero
+  <Hero2
     tagline="SaaS Web Demo"
     actions={[
       { variant: 'primary', target: '_blank', text: 'Get Started', href: 'https://github.com/onwidget/astrowind' },
@@ -62,7 +64,7 @@ const metadata = {
       >
       Seamlessly blend the power of Astro 4.0 and Tailwind CSS to craft websites that resonate with your brand and audience.
     </Fragment>
-  </Hero>
+  </Hero2>
 
   <!-- Features Widget *************** -->
 
@@ -309,7 +311,7 @@ const metadata = {
 
   <!-- Steps2 Widget ****************** -->
 
-  <Steps
+  <Steps2
     title="Reach out to us"
     subtitle="Have questions? Feel free to contact us using the form below. We're here to help!"
     callToAction={{
