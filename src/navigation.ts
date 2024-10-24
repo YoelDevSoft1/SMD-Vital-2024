@@ -32,43 +32,43 @@ export const headerData = {
         },
         {
           text: 'Teleconsulta médica',
-          href: getPermalink('/services'),
+          href: getPermalink('/teleconsulta-medica'),
         },
         {
           text: 'Electrocardiografía básica',
-          href: getPermalink('/pricing'),
+          href: getPermalink('/electrocardiografia-basica'),
         },
         {
           text: 'Lavado de oídos',
-          href: getPermalink('/about'),
+          href: getPermalink('/lavado-de-oidos'),
         },
         {
           text: 'Suero multivitamínico',
-          href: getPermalink('/contact'),
+          href: getPermalink('/suero-multivitaminico'),
         },
         {
           text: 'Sutura y retiro de puntos',
-          href: getPermalink('/terms'),
+          href: getPermalink('/sutura-y-retiro-de-puntos'),
         },
         {
           text: 'Retiro y colocación de sonda vesical',
-          href: getPermalink('/privacy'),
+          href: getPermalink('/retiro-y-colocacion-de-sonda-vesical'),
         },
         {
           text: 'Atención a pacientes con COVID-19',
-          href: getPermalink('/privacy'),
+          href: getPermalink('/atencion-a-pacientes-covid-19'),
         },
         {
           text: 'Extracción y cuidado para uñas encarnadas',
-          href: getPermalink('/privacy'),
+          href: getPermalink('/extraccion-y-cuidado-de-uñas-encarnadas'),
         },
         {
           text: 'Cura de heridas: simples y complejas',
-          href: getPermalink('/privacy'),
+          href: getPermalink('/cura-de-heridas-simples-y-complejas'),
         },
         {
           text: 'Valoración medica domiciliaria',
-          href: getPermalink('/privacy'),
+          href: getPermalink('/valoracion-medica-domiciliaria'),
         },
       ],
     },
@@ -77,19 +77,19 @@ export const headerData = {
       links: [
         {
           text: 'Toma de signos vitales',
-          href: getPermalink('/landing/lead-generation'),
+          href: getPermalink('toma-de-signos-vitales'),
         },
         {
           text: 'Inyectología a domicilio',
-          href: getPermalink('/landing/sales'),
+          href: getPermalink('/inyectologia-a-domicilio'),
         },
         {
           text: 'Enfermería a nivel domiciliario y hospitalario',
-          href: getPermalink('/landing/click-through'),
+          href: getPermalink('/enfemeria-a-nivel-domiciliario-y-hospitalario'),
         },
         {
           text: 'Acompañamiento a citas médicas',
-          href: getPermalink('/landing/product'),
+          href: getPermalink('/acompañamiento-a-citas-medicas'),
         },
       ],
     },
@@ -98,19 +98,19 @@ export const headerData = {
       links: [
         {
           text: 'Laboratorio a domicilio',
-          href: getPermalink('/landing/lead-generation'),
+          href: getPermalink('/laboratorio-a-domicilio'),
         },
         {
           text: 'Toma de muestras a domicilio',
-          href: getPermalink('/landing/sales'),
+          href: getPermalink('/toma-de-muestras-a-domicilio'),
         },
         {
           text: 'Prueba de antígeno a domicilio',
-          href: getPermalink('/landing/click-through'),
+          href: getPermalink('/prueba-de-antigeno-a-domicilio'),
         },
         {
           text: 'Toma de muestra PCR Covid-19 a domicilio (Hisopado nasofaringeo)',
-          href: getPermalink('/landing/product'),
+          href: getPermalink('/toma-de-muestra-pcr-covid-19'),
         },
       ],
     },
@@ -118,19 +118,19 @@ export const headerData = {
       text: 'Blog',
       links: [
         {
-          text: 'Blog List',
+          text: 'Lista de Blogs',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
+          text: 'Articulos',
           href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
         },
         {
-          text: 'Article (with MDX)',
+          text: 'Articulos (con MDX)',
           href: getPermalink('markdown-elements-demo-post', 'post'),
         },
         {
-          text: 'Category Page',
+          text: 'Categoria de pagina',
           href: getPermalink('tutorials', 'category'),
         },
         {
@@ -146,53 +146,39 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Servicio',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Caracteristicas', href: '#' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'Plataforma',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Nosotros', href: '/inicio/quienes-somos' },
+        { text: 'Vision', href: '#' },
+        { text: 'Mision', href: '#' },
+        { text: 'Filosofia', href: '#' },
       ],
     },
     {
-      title: 'Support',
+      title: 'Suporte',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Comunidad Blog', href: '#' },
+        { text: 'Servicios profesionales', href: '#' },
       ],
     },
     {
-      title: 'Company',
+      title: 'Compañia',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'Acerca', href: '#' },
         { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'Impacto Social', href: '#' },
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Terminos', href: getPermalink('/terms') },
+    { text: 'Politica de privacidad', href: getPermalink('/privacy') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
