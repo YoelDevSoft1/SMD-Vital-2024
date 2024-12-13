@@ -40,7 +40,7 @@ export const headerData = {
         },
         {
           text: 'Lavado de oídos',
-          href: getPermalink('/lavado-de-oidos'),
+          href: getPermalink('/lavado-de-oido-a-domicilios'),
         },
         {
           text: 'Suero multivitamínico',
