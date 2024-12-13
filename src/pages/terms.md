@@ -1,120 +1,98 @@
 ---
-title: 'Terms and Conditions'
+title: 'Términos y Condiciones'
 layout: '~/layouts/MarkdownLayout.astro'
 ---
 
-_Last updated_: January 06, 2023
+_Ultima actualización_: 06 de enero de 2023
 
-Please read these terms and conditions carefully before using Our Service.
+Por favor, lee atentamente estos Términos y Condiciones antes de utilizar nuestro Servicio.
 
-## Interpretation and Definitions
+## Interpretación y Definiciones
 
-### Interpretation
+### Interpretación
 
-The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
+Las palabras cuyas iniciales están en mayúscula tienen el significado que se les da en las condiciones que se detallan a continuación. Estas definiciones tendrán el mismo significado, ya sea que aparezcan en singular o en plural.
 
-### Definitions
+### Definiciones
 
-For the purposes of these Terms and Conditions:
+Para los propósitos de estos Términos y Condiciones:
 
-- **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+- **Compañía** (referida como "la Compañía", "Nosotros", "Nos" o "Nuestro" en este acuerdo) se refiere a SMD Vital, ubicada en Bogotá, Colombia.
 
-- **Country** refers to: California, United States
+- **Dispositivo** significa cualquier dispositivo que pueda acceder al Servicio, como una computadora, un teléfono móvil o una tableta digital.
 
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to SMD Vital Bogota LLC, 1 Cupertino, CA 95014.
+- **Servicio** se refiere al Sitio Web.
 
-- **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+- **Términos y Condiciones** (también referidos como "Términos") son estos Términos y Condiciones que constituyen el acuerdo completo entre Tú y la Compañía con respecto al uso del Servicio.
 
-- **Service** refers to the Website.
+- **Sitio Web** se refiere a SMD Vital, accesible desde [https://tusitio.com](https://tusitio.com) (reemplaza con el dominio real).
 
-- **Terms and Conditions** (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement is a Demo.
+- **Tú** significa la persona que accede o utiliza el Servicio, o la empresa u otra entidad legal en nombre de la cual dicha persona accede o utiliza el Servicio, según corresponda.
 
-- **Third-party Social Media Service** means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
+## Aceptación de los Términos
 
-- **Website** refers to SMD Vital Bogota, accessible from [https://astrowind.vercel.app](https://astrowind.vercel.app)
+Estos Términos y Condiciones rigen el uso de nuestro Servicio y el acuerdo entre Tú y la Compañía. Establecen los derechos y obligaciones de todos los usuarios con respecto al uso del Servicio.
 
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+Tu acceso y uso del Servicio dependen de la aceptación y el cumplimiento de estos Términos y Condiciones. Estos Términos se aplican a todos los visitantes, usuarios y otras personas que accedan o utilicen el Servicio.
 
-## Acknowledgment
+Al acceder o usar el Servicio, aceptas quedar vinculado por estos Términos y Condiciones. Si no estás de acuerdo con alguna parte de los mismos, no podrás acceder al Servicio.
 
-These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.
+Declaras que tienes más de 18 años. La Compañía no permite el uso del Servicio a menores de 18 años.
 
-Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.
+Tu acceso y uso del Servicio también están condicionados a la aceptación de nuestra Política de Privacidad, que describe nuestras políticas y procedimientos sobre la recopilación, uso y divulgación de tu información personal, así como tus derechos de privacidad y cómo la ley te protege. Por favor, lee nuestra Política de Privacidad antes de usar nuestro Servicio.
 
-By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.
+## Enlaces a Otros Sitios Web
 
-You represent that you are over the age of 18\. The Company does not permit those under 18 to use the Service.
+Nuestro Servicio puede contener enlaces a sitios web o servicios de terceros que no son propiedad ni están controlados por la Compañía.
 
-Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.
+La Compañía no tiene control sobre el contenido, las políticas de privacidad o las prácticas de sitios o servicios de terceros. Aceptas que la Compañía no será responsable, directa o indirectamente, por cualquier daño o pérdida causada o supuestamente causada por el uso o confianza en dicho contenido, bienes o servicios disponibles en dichos sitios o servicios.
 
-## Links to Other Websites
+Te recomendamos leer los términos y condiciones y las políticas de privacidad de cualquier sitio web o servicio de terceros que visites.
 
-Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.
+## Terminación
 
-The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.
+Podemos suspender o terminar tu acceso al Servicio de inmediato, sin previo aviso ni responsabilidad, por cualquier motivo, incluyendo si incumples estos Términos y Condiciones.
 
-We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.
+Al finalizar, tu derecho a usar el Servicio cesará inmediatamente.
 
-## Termination
+## Limitación de Responsabilidad
 
-We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
+En la máxima medida permitida por la ley aplicable, la Compañía no será responsable de daños especiales, incidentales, indirectos o consecuentes (incluyendo la pérdida de beneficios, pérdida de datos, interrupción del negocio o lesiones personales) relacionados con el uso o la imposibilidad de uso del Servicio.
 
-Upon termination, Your right to use the Service will cease immediately.
+Algunas jurisdicciones no permiten la exclusión de ciertas garantías o la limitación de responsabilidad por daños incidentales o consecuentes, por lo que estas limitaciones pueden no aplicarte. En tales casos, la responsabilidad se limitará a la mayor medida permitida por la ley.
 
-## Limitation of Liability
+## Renuncia de Garantías "TAL CUAL" y "SEGÚN DISPONIBILIDAD"
 
-Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.
+El Servicio se proporciona "TAL CUAL" y "SEGÚN DISPONIBILIDAD", sin garantías de ningún tipo, ya sean expresas o implícitas. La Compañía no garantiza que el Servicio cumpla con tus requisitos, sea ininterrumpido, seguro o esté libre de errores, ni que los resultados del uso del Servicio sean precisos o confiables.
 
-To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.
+Algunas jurisdicciones no permiten la exclusión de ciertas garantías, por lo que es posible que algunas de las exclusiones anteriores no se apliquen a ti. En tales casos, las exclusiones se aplicarán en la mayor medida permitida por la ley aplicable.
 
-Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party's liability will be limited to the greatest extent permitted by law.
+## Ley Aplicable
 
-## "AS IS" and "AS AVAILABLE" Disclaimer
+Las leyes de la República de Colombia regirán estos Términos y tu uso del Servicio, sin considerar conflictos de leyes. El uso del Servicio también puede estar sujeto a otras leyes locales, estatales, nacionales o internacionales.
 
-The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.
+## Resolución de Disputas
 
-Without limiting the foregoing, neither the Company nor any of the company's provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon; (ii) that the Service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.
+Si tienes alguna inquietud o disputa sobre el Servicio, aceptas intentar resolverla primero de manera informal contactando a la Compañía.
 
-Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.
+## Divisibilidad y Renuncia
 
-## Governing Law
+### Divisibilidad
 
-The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
+Si alguna disposición de estos Términos se considera inválida o inaplicable, dicha disposición se modificará e interpretará para lograr sus objetivos en la mayor medida posible según la ley aplicable, y las disposiciones restantes seguirán en pleno vigor y efecto.
 
-## Disputes Resolution
+### Renuncia
 
-If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.
+La omisión de la Compañía de hacer cumplir un derecho o exigir el cumplimiento de una obligación bajo estos Términos no constituirá una renuncia a dicho derecho u obligación.
 
-## For European Union (EU) Users
+## Cambios en Estos Términos y Condiciones
 
-If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.
+Nos reservamos el derecho, a nuestra entera discreción, de modificar o reemplazar estos Términos en cualquier momento. Si una revisión es importante, haremos esfuerzos razonables para notificar con al menos 30 días de anticipación antes de que los nuevos términos entren en vigencia. Lo que constituye un cambio material se determinará a nuestra sola discreción.
 
-## United States Legal Compliance
+Al continuar accediendo o utilizando nuestro Servicio después de que esas revisiones entren en vigor, aceptas quedar obligado por los términos revisados. Si no estás de acuerdo con los nuevos términos, en su totalidad o en parte, por favor, deja de usar el Servicio.
 
-You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a "terrorist supporting" country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.
+## Contáctanos
 
-## Severability and Waiver
+Si tienes preguntas sobre estos Términos y Condiciones, puedes contactarnos:
 
-### Severability
-
-If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.
-
-### Waiver
-
-Except as provided herein, the failure to exercise a right or to require performance of an obligation under these Terms shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall the waiver of a breach constitute a waiver of any subsequent breach.
-
-## Translation Interpretation
-
-These Terms and Conditions may have been translated if We have made them available to You on our Service. You agree that the original English text shall prevail in the case of a dispute.
-
-## Changes to These Terms and Conditions
-
-We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.
-
-By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
-
-## Contact Us
-
-If you have any questions about these Terms and Conditions, You can contact us:
-
-- By email: somecoolemail@domain.com
+- Por correo electrónico: salud@smdvitalbogota.com
