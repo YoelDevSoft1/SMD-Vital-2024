@@ -6,15 +6,14 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import Features from '~/components/widgets/Features.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
-import Pricing from '~/components/widgets/Pricing.astro';
-
-import { headerData } from '~/navigation';
 import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
+import { headerData } from '~/navigation';
+
 const metadata = {
-  title: 'Teleconsulta Médica en Bogotá | SMD Vital',
-  description: 'Accede a teleconsulta médica en Bogotá desde la comodidad de tu hogar. Recibe atención médica inmediata con SMD Vital Bogotá, profesionales disponibles para ti en todo momento.',
+  title: 'Teleconsulta Médica a Domicilio | SMD Vital',
+  description: 'Recibe atención médica profesional a través de teleconsulta en Bogotá, Colombia. Evita desplazamientos y obtén diagnósticos precisos desde la comodidad de tu hogar.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -32,7 +31,7 @@ const metadata = {
         {
           variant: 'primary',
           text: 'WhatsApp',
-          href: '#',
+          href: 'https://wa.me/573042912564',
         },
       ]}
       isSticky
@@ -42,27 +41,25 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="Tu Aliado en Atención Médica Virtual"
+    tagline="Atención Médica sin Salir de Casa"
     actions={[
-      { variant: 'primary', target: '_blank', text: 'WhatsApp', href: 'https://github.com/Yoel Dev Soft/astrowind' },
-      { text: 'Llamada de emergencia', href: '#features' },
+      { variant: 'primary', target: '_blank', text: 'WhatsApp', href: 'https://wa.me/573042912564' },
+      { variant: 'secondary', text: 'Agendar Teleconsulta', href: '#features' },
     ]}
     image={{
-      src: 'https://images.pexels.com/photos/8376309/pexels-photo-8376309.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      alt: 'SMD Vital Bogota Hero Image',
+      src: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Teleconsulta Médica en Bogotá',
+      loading: 'lazy',
     }}
   >
     <Fragment slot="title">
-      Simplifica tu Consulta Médica <br /> con <span class="text-accent dark:text-white highlight"
-        >SMD Vital</span
-      > <br />
+      Teleconsulta <br /><span class="text-accent dark:text-white highlight">Médica</span><br />
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        La teleconsulta médica es la solución ideal <span class="font-semibold">para recibir atención profesional sin salir de casa. </span> Con SMD Vital Bogotá</span
-      >
-      puedes conectarte rápidamente con nuestros médicos para evaluar tu situación, resolver dudas y recibir diagnósticos de forma eficiente y segura.
+        Atención profesional a través de videollamada con médicos certificados, sin necesidad de desplazarte.</span>
+      Obtén diagnósticos, tratamientos y recomendaciones desde la comodidad de tu hogar en Bogotá, Colombia.
     </Fragment>
   </Hero2>
 
@@ -70,101 +67,88 @@ const metadata = {
 
   <Features
     id="features"
-    title="¿Por qué elegir la Teleconsulta Médica de SMD Vital Bogotá?"
-    subtitle="Ventajas únicas de la Teleconsulta Médica en SMD Vital Bogotá"
+    title="¿Por qué elegir nuestro servicio de teleconsulta médica?"
+    subtitle="Comprometidos con tu salud y comodidad en Bogotá"
     columns={2}
     items={[
-            {
-              title: '¿Por qué elegir la Teleconsulta Médica de SMD Vital Bogotá?',
-              description:
-                'En <strong>SMD Vital Bogotá</strong> ofrecemos un <strong>servicio de teleconsulta médica a domicilio</strong> diseñado para brindar atención médica profesional y personalizada sin que el paciente tenga que desplazarse. Nuestro enfoque permite recibir <strong>orientación médica confiable</strong> desde la comodidad del hogar, ahorrando tiempo y garantizando una atención de calidad.',
-              icon: 'tabler:layers-union',
-            },
-            {
-              title: 'Atención personalizada para cada paciente',
-              description: `La <strong>teleconsulta médica a domicilio</strong> de <strong>SMD Vital Bogotá</strong> se adapta a las necesidades individuales de cada paciente. Contamos con profesionales altamente capacitados para ofrecer una atención médica de calidad, ajustada a los síntomas y condiciones particulares de cada caso.`,
-              icon: 'tabler:artboard',
-            },
-            {
-              title: 'Seguimiento continuo y especializado',
-              description:
-                'Nuestro servicio permite un <strong>seguimiento médico</strong> de manera continua, ideal para pacientes que requieren revisiones periódicas, como personas con enfermedades crónicas o en recuperación. La teleconsulta facilita el contacto frecuente con los médicos, mejorando el control de su salud.',
-              icon: 'tabler:writing',
-            },
-            {
-              title: 'Optimización de tiempos y accesibilidad',
-              description: `El <strong>servicio de teleconsulta</strong> ofrece una solución accesible y eficiente para quienes buscan recibir atención médica sin los desplazamientos. Al reducir el tiempo de espera, nuestra teleconsulta permite una atención oportuna, cómoda y segura para todos los pacientes.`,
-              icon: 'tabler:podium',
-            },
-            {
-              title: 'Tecnología para una atención rápida y segura',
-              description: `<strong>SMD Vital Bogotá</strong> emplea tecnología avanzada para asegurar tiempos de respuesta rápidos y una conexión segura, protegiendo la privacidad de cada consulta médica. Así, garantizamos una <strong>experiencia de teleconsulta confiable y segura</strong>.`,
-              icon: 'tabler:rocket',
-            },
-            {
-              title: 'Estructura optimizada para que nuestros pacientes nos encuentren fácilmente',
-              description: `La estructura de <strong>SMD Vital Bogotá</strong> está optimizada para <strong>SEO</strong>, facilitando que los pacientes encuentren y accedan a nuestros servicios de teleconsulta. Así, cada vez más personas pueden descubrir la comodidad y seguridad de la consulta médica a domicilio.`,
-              icon: 'tabler:eyeglass',
-            },
-
-    ]}
-  />
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    title="Casos de Uso"
-    subtitle="Descubre cómo SMD Vital Bogotá se adapta a las necesidades de atención médica a domicilio, ofreciendo soluciones personalizadas para brindar un servicio eficiente y profesional en teleconsulta médica."
-    isReversed
-    items={[
       {
-        title: 'Descripción:',
+        title: 'Médicos Certificados',
         description:
-          'En SMD Vital Bogotá, entendemos que el tiempo y la comodidad son esenciales. Nuestra teleconsulta médica permite a los pacientes recibir atención primaria sin salir de casa. A través de nuestra plataforma, conectamos a los pacientes con médicos profesionales que pueden evaluar, diagnosticar y asesorar en tiempo real, resolviendo necesidades básicas de salud de manera rápida y conveniente.',
+          'Contamos con un equipo de médicos generales y especialistas altamente capacitados para brindarte atención de calidad.',
+        icon: 'tabler:shield-check',
       },
       {
-        title: 'Beneficios:',
-        description: `Nuestra teleconsulta en atención primaria permite una comunicación inmediata entre el paciente y el médico, sin la necesidad de desplazarse. Esto no solo ahorra tiempo y costos asociados a visitas físicas, sino que también garantiza una evaluación médica rápida y confiable. Los pacientes reciben recomendaciones personalizadas y pueden resolver dudas sobre sus síntomas y cuidados en minutos, maximizando la comodidad y la seguridad en cada consulta.`,
+        title: 'Ahorro de Tiempo',
+        description: `Evita desplazamientos y largas esperas en salas de espera. Realiza tu consulta desde la comodidad de tu hogar.`,
+        icon: 'tabler:clock',
+      },
+      {
+        title: 'Diagnósticos Precisos',
+        description:
+          'Utilizamos tecnología confiable para garantizar diagnósticos acertados y tratamientos efectivos.',
+        icon: 'tabler:device-laptop',
+      },
+      {
+        title: 'Privacidad Garantizada',
+        description: `Tus datos médicos y personales se manejan con la máxima confidencialidad, cumpliendo con estándares de seguridad.`,
+        icon: 'tabler:lock',
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    title="Nuestros Servicios"
+    subtitle="Descubre cómo SMD Vital Bogotá puede ayudarte con teleconsulta médica."
+    isReversed
+    items={[
+      {
+        title: 'Evaluación Inicial',
+        description:
+          'Inicia con una breve entrevista virtual para entender tus síntomas y motivos de consulta.',
+      },
+      {
+        title: 'Videoconsulta Médica',
+        description: `Conéctate con uno de nuestros médicos a través de una videollamada segura y estable para recibir tu diagnóstico y recomendaciones.`,
+      },
+      {
+        title: 'Emisión de Fórmulas y Recomendaciones',
+        description: `Obtén prescripciones, recomendaciones de tratamiento y pautas de cuidado a seguir, todo sin salir de casa.`,
+      },
+      {
+        title: 'Seguimiento Continuo',
+        description: `Realizamos un seguimiento personalizado según tu evolución, ajustando el tratamiento si es necesario.`,
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1620558138198-cfb9b4f3c294?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1671&q=80',
-      alt: 'Startup Image',
+      src: 'https://images.unsplash.com/photo-1580281657527-4c36b1f2475c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Servicios de Teleconsulta Médica',
+      loading: 'lazy',
     }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Teleconsulta Médica para Atención Primaria: <br /><span class="text-2xl">Acceso inmediato a consultas médicas desde tu hogar</span>
-      </h3>
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
+  />
 
   <Content
     isAfterContent={true}
     items={[
       {
-        title: 'Descripción:',
-        description: `El seguimiento de enfermedades crónicas requiere atención regular. SMD Vital Bogotá facilita este proceso mediante teleconsultas, permitiendo a los pacientes con condiciones como hipertensión o diabetes recibir orientación continua desde su hogar. Los médicos revisan el historial médico y controlan la evolución de la enfermedad, ofreciendo ajustes en el tratamiento según sea necesario, sin la incomodidad de los desplazamientos.`,
+        title: 'Mejora tu Experiencia Médica',
+        description: `Disfruta de una atención integral sin salir de casa, reduciendo estrés y exponiéndote menos a riesgos externos.`,
       },
       {
         title: 'Beneficios:',
-        description: `Nuestro servicio de teleconsulta para el manejo de enfermedades crónicas brinda un monitoreo constante y adaptado al historial de cada paciente. Esto mejora significativamente la adherencia al tratamiento, evita complicaciones y reduce la necesidad de hospitalizaciones. Los pacientes pueden revisar su progreso de salud y realizar ajustes con orientación médica sin moverse de casa, haciendo que la gestión de su condición sea sencilla, accesible y altamente eficaz.`,
+        description: `Menos desplazamientos. <br /> Atención más rápida. <br /> Mayor comodidad y seguridad.`,
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1531973486364-5fa64260d75b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1658&q=80',
-      alt: 'SaaS Businesses Image',
+      src: 'https://images.unsplash.com/photo-1584466977774-20fda7cb9c7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Beneficios de la Teleconsulta Médica',
+      loading: 'lazy',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Teleconsulta para Manejo de Enfermedades Crónicas: <br /><span class="text-2xl">Control de enfermedades crónicas en la comodidad de tu hogar</span>
+        Salud a un Clic <br /><span class="text-2xl">en tu Hogar</span>
       </h3>
     </Fragment>
 
@@ -172,30 +156,29 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
-  <!-- Content Widget **************** -->
 
   <Content
     isReversed
     isAfterContent={true}
     items={[
       {
-        title: 'Descripción:',
-        description: `SMD Vital Bogotá está preparado para atender urgencias menores a través de teleconsultas, ayudando a pacientes a identificar y manejar problemas de salud que no requieren intervención inmediata en un hospital. Nuestros médicos pueden asesorar en tiempo real para dar primeros auxilios básicos y definir si se necesita una consulta presencial, asegurando que cada paciente reciba la atención adecuada para su situación.`,
+        title: 'Tecnología Avanzada',
+        description: `Utilizamos plataformas seguras y estables para ofrecer una experiencia de videoconsulta fluida.`,
       },
       {
         title: 'Beneficios:',
-        description: `Nuestro servicio de teleconsulta para urgencias menores ofrece una evaluación rápida y precisa, permitiendo a los pacientes saber cuándo deben buscar atención presencial. Esto minimiza visitas innecesarias a urgencias, optimizando tanto tiempo como recursos. Los pacientes reciben orientación para actuar de inmediato en casos como alergias, fiebre o heridas leves, brindando seguridad y una respuesta oportuna en momentos de incertidumbre.`,
+        description: `Conexión estable. <br /> Comunicación clara con el médico. <br /> Intercambio de documentos y fórmulas en línea.`,
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Portfolio Image',
+      src: 'https://images.unsplash.com/photo-1576765607924-3b3b4fb776c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1650&q=80',
+      alt: 'Tecnología Avanzada en Teleconsulta',
+      loading: 'lazy',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Teleconsulta para Urgencias Menores: <br /><span class="text-2xl">Resolución de emergencias menores de forma rápida y profesional</span>
+        Conectividad y Confianza <br /><span class="text-2xl">Garantizadas</span>
       </h3>
     </Fragment>
 
@@ -204,27 +187,56 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Soporte Continuo',
+        description: `Nuestro equipo está disponible para guiarte y resolver tus dudas técnicas o médicas durante todo el proceso.`,
+      },
+      {
+        title: 'Beneficios:',
+        description: `Asesoramiento personalizado. <br /> Ayuda inmediata. <br /> Tranquilidad y seguridad en tu atención médica.`,
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1580281657527-4c36b1f2475c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Soporte Continuo en Teleconsulta Médica',
+      loading: 'lazy',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Soporte y Atención <br /><span class="text-2xl">Permanentes</span>
+      </h3>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
   <Content
     items={[
       {
-        title: 'Descripción:',
-        description: `En SMD Vital Bogotá sabemos que la salud de los niños es una prioridad para sus familias. Nuestra teleconsulta pediátrica permite a los padres acceder rápidamente a una evaluación médica para sus hijos en caso de síntomas o dudas sobre su salud. Un pediatra especializado puede asesorar sobre cuidados básicos, síntomas y posibles tratamientos, asegurando tranquilidad y seguridad para las familias.`,
+        title: 'Atención en Emergencias',
+        description: `Ofrecemos orientación médica en situaciones críticas, ayudándote a tomar las mejores decisiones en momentos de urgencia.`,
       },
       {
         title: 'Beneficios:',
-        description: `Nuestra teleconsulta pediátrica ofrece a los padres un acceso inmediato a profesionales de la salud infantil, reduciendo la necesidad de visitas presenciales para síntomas comunes. Esto facilita el diagnóstico y la orientación médica en tiempo real, permitiendo un manejo eficaz de la salud de los niños sin estrés adicional. Los padres pueden hacer sus consultas y recibir recomendaciones para el cuidado de sus hijos, todo en un entorno seguro y accesible desde el hogar.`,
+        description: `Respuesta inmediata. <br /> Reducción de riesgos. <br /> Apoyo profesional en momentos difíciles.`,
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1514621166532-aa7eb1a3a2f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Small Business Image',
+      src: 'https://images.unsplash.com/photo-1580281657527-4c36b1f2475c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Atención en Emergencias a través de Teleconsulta',
+      loading: 'lazy',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Teleconsulta Pediátrica: <br /><span class="text-2xl">Atención médica para los más pequeños de la casa</span>
+        Apoyo Inmediato <br /><span class="text-2xl">y Seguro</span>
       </h3>
     </Fragment>
 
@@ -233,74 +245,38 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Pricing Widget ******************* -->
-
-  <!--<Pricing
-    title="Flexible pricing plans"
-    prices={[
-      {
-        title: 'free',
-        subtitle: 'Access to core features and a wide range of templates',
-        price: '0',
-        period: '/ month',
-        callToAction: {
-          target: '_blank',
-          text: 'WhatsApp for Free',
-          href: '#',
-        },
-      },
-      {
-        title: 'pro',
-        subtitle: 'Premium templates and advanced customization',
-        price: 15,
-        period: '/ Month',
-        callToAction: {
-          target: '_blank',
-          text: 'Upgrade to Pro',
-          href: '#',
-        },
-        hasRibbon: true,
-        ribbonTitle: 'popular',
-      },
-      {
-        title: 'Enterprise',
-        subtitle: 'Tailored solutions for large-scale projects',
-        price: 45,
-        period: '/ Month',
-        callToAction: {
-          target: '_blank',
-          text: 'Unlock Enterprise Features',
-          href: '#',
-        },
-      },
-    ]}
-  />
- -->
   <!-- FAQs Widget ******************* -->
 
   <FAQs
     title="Preguntas frecuentes"
     items={[
       {
-        title: '¿Es SMD Vital Bogotá compatible con la tecnología más reciente para consultas médicas en línea',
+        title: '¿Qué es una teleconsulta médica?',
         description:
-          'Sí, en SMD Vital Bogotá utilizamos la tecnología más avanzada para brindar una experiencia de teleconsulta segura, estable y eficiente. Esto garantiza que nuestros pacientes puedan aprovechar los últimos avances en telemedicina para recibir atención de calidad desde la comodidad de su hogar',
+          'Es una consulta a distancia con un médico a través de videollamada, permitiéndote recibir atención médica profesional sin salir de tu hogar.',
         icon: 'tabler:chevrons-right',
       },
       {
-        title: '¿Puedo utilizar SMD Vital Bogotá para consultas médicas tanto para mí como para otros miembros de mi familia?',
-        description: `¡Claro! SMD Vital Bogotá es ideal para personas de todas las edades y puede ser utilizado para recibir atención tanto individual como familiar. Ofrecemos consultas en diversas áreas médicas, incluyendo pediatría, atención primaria y manejo de enfermedades crónicas, para cubrir todas las necesidades de salud de tu familia.`,
+        title: '¿Necesito equipo especial para la teleconsulta?',
+        description: `Solo necesitas un dispositivo con cámara (como un teléfono inteligente o computadora) y una conexión a Internet estable.`,
         icon: 'tabler:chevrons-right',
       },
       {
-        title: '¿Qué nivel de conocimiento técnico necesito para utilizar la plataforma de teleconsulta de SMD Vital Bogotá?',
+        title: '¿Se pueden emitir fórmulas y órdenes médicas?',
         description:
-          'La plataforma de SMD Vital Bogotá es fácil de usar y no requiere conocimientos técnicos avanzados. Hemos diseñado un sistema accesible para que cualquier persona, sin importar su nivel de experiencia en tecnología, pueda acceder y coordinar consultas médicas de manera sencilla. Solo necesitas un dispositivo con acceso a internet y podrás iniciar tu consulta en minutos.',
+          'Sí, nuestros médicos pueden emitir fórmulas y órdenes para exámenes, estudios o tratamientos, que recibirás de manera digital.',
         icon: 'tabler:chevrons-right',
       },
       {
-        title: '¿Ofrecen asistencia al cliente para los usuarios de SMD Vital Bogotá que necesiten orientación',
-        description: `Sí, contamos con un equipo de soporte dedicado para ayudarte en cualquier momento. Si tienes dudas o encuentras algún inconveniente, no dudes en comunicarte con nuestro equipo a través de nuestros canales de soporte, y con gusto te brindaremos la ayuda que necesites.`,
+        title: '¿La teleconsulta reemplaza una visita presencial?',
+        description:
+          'En muchos casos sí, pero si el médico determina que necesitas atención presencial, te lo informará y coordinará la visita.',
+        icon: 'tabler:chevrons-right',
+      },
+      {
+        title: '¿Cómo agendo una teleconsulta médica?',
+        description:
+          'Puedes agendar fácilmente a través de WhatsApp, llamando a nuestro call center o completando el formulario en nuestro sitio web.',
         icon: 'tabler:chevrons-right',
       },
     ]}
@@ -313,15 +289,15 @@ const metadata = {
   <!-- Steps2 Widget ****************** -->
 
   <Steps2
-    title="Contactanos"
-    subtitle="¿Tienes preguntas? No dudes en contactarnos mediante el siguiente formulario. ¡Estamos aquí para ayudarte!"
+    title="Contáctanos"
+    subtitle="¿Tienes preguntas sobre nuestro servicio de teleconsulta médica? ¡Estamos aquí para ayudarte!"
     callToAction={{
       text: 'WhatsApp',
-      href: '/',
+      href: 'https://wa.me/573042912564',
     }}
     items={[
       {
-        title: 'Correo electronico',
+        title: 'Correo electrónico',
         description: 'salud@smdvitalbogota.com',
         icon: 'tabler:mail',
       },
@@ -331,7 +307,7 @@ const metadata = {
         icon: 'tabler:headset',
       },
       {
-        title: 'Siguenos',
+        title: 'Síguenos',
         description: '@smdvitalbogota',
         icon: 'tabler:brand-twitter',
       },
@@ -342,8 +318,8 @@ const metadata = {
 
   <BlogLatestPosts
     id="blog"
-    title="Encuentra más contenido en nuestro Blog"
-    information={`Este blog ha sido creado para ayudarte a entender la importancia de la prevención a tiempo. Cada artículo te mostrará cómo prevenir enfermedades y mantener una buena salud. ¡Gracias por leer!`}
+    title="Conoce más sobre la teleconsulta y sus beneficios"
+    information={`Visita nuestro blog para aprender más sobre la teleconsulta médica, sus ventajas, y cómo puede mejorar tu acceso a la atención en salud. ¡Gracias por leernos!`}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>

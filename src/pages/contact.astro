@@ -6,64 +6,66 @@ import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
   title: 'Servicios Médicos Domiciliarios en Bogotá | SMD Vital',
-  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Olvídate del tráfico y las largas esperas en salas de espera, ¡contáctanos!',
+  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Evita el tráfico y las largas esperas, ¡contáctanos hoy mismo!',
   ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
-
-  <HeroText tagline="Contact" title="Let's Connect!" />
+  <HeroText
+    tagline="Contacto"
+    title="¡Conectemos!"
+  />
 
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="Envíanos tu mensaje"
+    subtitle="¿Tienes preguntas, necesitas agendar una visita médica a domicilio o requieres más información sobre nuestros servicios? Completa el formulario y nuestro equipo de soporte te responderá a la brevedad."
     inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: 'Nombre',
       },
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: 'Correo electrónico',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: 'Mensaje',
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'Al enviar este formulario, aceptas que recopilemos tus datos personales con el único fin de responder a tu consulta.',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="Nuestro equipo de soporte suele responder en menos de 24 horas laborales."
   />
 
   <!-- Features2 Widget ************** -->
-
   <Features2
-    title="We are here to help!"
+    title="Estamos aquí para ayudarte"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
-      },
-      {
-        title: 'Contact sales',
+        title: 'Atención General',
         description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+          '¿Tienes preguntas sobre nuestros servicios médicos domiciliarios, horarios, costos o disponibilidad? Nuestro equipo está listo para orientarte.',
       },
       {
-        title: 'Technical support',
+        title: 'Agendar Citas',
         description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
+          '¿Necesitas programar una visita médica a domicilio? Contáctanos y te ayudaremos a encontrar el horario más adecuado.',
       },
       {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
+        title: 'Soporte Técnico',
+        description:
+          '¿Tienes dificultades con nuestra plataforma en línea o problemas para acceder a tu información? Nuestro soporte técnico está para asistirte.',
+      },
+      {
+        title: 'Teléfono',
+        description: '+57 (304) 291-2564',
         icon: 'tabler:headset',
       },
       {
@@ -72,8 +74,8 @@ const metadata = {
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
+        title: 'Ubicación',
+        description: 'Bogotá, Colombia',
         icon: 'tabler:map-pin',
       },
     ]}

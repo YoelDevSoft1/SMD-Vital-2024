@@ -6,15 +6,14 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import Features from '~/components/widgets/Features.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
-import Pricing from '~/components/widgets/Pricing.astro';
 
 import { headerData } from '~/navigation';
 import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
-  title: 'Servicios Médicos Domiciliarios en Bogotá | SMD Vital',
-  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Olvídate del tráfico y las largas esperas en salas de espera, ¡contáctanos!',
+  title: 'Cura de Heridas Simples y Complejas en Bogotá | SMD Vital',
+  description: 'Recibe atención profesional para la cura de heridas simples y complejas en Bogotá con SMD Vital. Cuidamos de tu recuperación de forma segura y eficiente.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -42,27 +41,24 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="SaaS Web Demo"
+    tagline="Expertos en el Cuidado de Heridas"
     actions={[
-      { variant: 'primary', target: '_blank', text: 'WhatsApp', href: 'https://github.com/Yoel Dev Soft/astrowind' },
-      { text: 'Llamada de emergencia', href: '#features' },
+      { variant: 'primary', target: '_blank', text: 'WhatsApp', href: 'https://wa.me/573042912564' },
+      { variant: 'secondary', text: 'Llamada de emergencia', href: '#features' },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'SMD Vital Bogota Hero Image',
+      src: 'https://images.unsplash.com/photo-1585436102204-8341152e8799?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Cura de Heridas Simples y Complejas',
     }}
   >
     <Fragment slot="title">
-      Simplify web design with Astrowind: <br /> your ultimate <span class="text-accent dark:text-white highlight"
-        >SaaS</span
-      > companion<br />
+      Recupera tu Bienestar con <br /><span class="text-accent dark:text-white highlight">SMD Vital</span><br />
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Elevate your website creation process with <span class="font-semibold">SMD Vital Bogota</span>'s SaaS solutions.</span
-      >
-      Seamlessly blend the power of Astro 4.0 and Tailwind CSS to craft websites that resonate with your brand and audience.
+        Con <span class="font-semibold">SMD Vital Bogotá</span>, brindamos cuidado profesional para heridas de cualquier tipo.</span>
+      Nuestro servicio asegura limpieza, tratamiento y seguimiento adecuados para una recuperación óptima.
     </Fragment>
   </Hero2>
 
@@ -70,41 +66,31 @@ const metadata = {
 
   <Features
     id="features"
-    title="Why choose SMD Vital Bogota?"
-    subtitle="Each of the following features enhances SMD Vital Bogota's value proposition."
+    title="¿Por qué elegir nuestro servicio de Cura de Heridas?"
+    subtitle="Beneficios únicos de nuestra atención especializada en Bogotá"
     columns={2}
     items={[
       {
-        title: 'Integration of Astro 4.0 and Tailwind CSS',
+        title: 'Atención personalizada',
         description:
-          'Offers a powerful combination that enhances both the development process and the end-user experience. Also, allows to build dynamic and visually stunning websites with optimized performance.',
+          'Evaluamos cada herida de forma individual para garantizar el tratamiento adecuado según su gravedad y tipo.',
         icon: 'tabler:layers-union',
       },
       {
-        title: 'Versatile design for startups, small businesses, and more',
-        description: `Easily customize SMD Vital Bogota to harmonize with the unique branding and identity of your venture. SMD Vital Bogota's versatile design adapts to suit your needs.`,
+        title: 'Prevención de infecciones',
+        description: `Utilizamos técnicas avanzadas y materiales de alta calidad para minimizar riesgos de infección y acelerar la cicatrización.`,
         icon: 'tabler:artboard',
       },
       {
-        title: 'Effortless customization for portfolios and marketing sites',
+        title: 'Cuidado profesional en casa',
         description:
-          'With intuitive customization, easily showcase portfolio pieces, case studies, project highlights, and relevant content. Ideal for creative professionals and businesses looking to highlight their expertise.',
+          'Ofrecemos un servicio domiciliario para que recibas atención médica especializada sin salir de tu hogar.',
         icon: 'tabler:writing',
       },
       {
-        title: 'Optimized landing pages and engaging blogs',
-        description: `Landing pages are strategically designed to captivate visitors and prompt specific actions. Additionally, the blog creation feature empowers sharing insights, engaging the audience.`,
+        title: 'Seguimiento continuo',
+        description: `Nos aseguramos de monitorear el progreso de tu recuperación, ajustando el tratamiento según sea necesario.`,
         icon: 'tabler:podium',
-      },
-      {
-        title: 'Fast loading times and production-ready code',
-        description: `Using Astro 4.0 ensures fast loading and seamless rendering, enhancing browsing. The code follows best practices, improving user experience, SEO, and reducing bounce rates.`,
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'SEO-optimized structure for enhanced visibility',
-        description: `Follows SEO best practices with clean code, semantic HTML markup, and fast loading, enhancing search engine rankings. SMD Vital Bogota's SEO structure ensures visibility to potential customers and clients.`,
-        icon: 'tabler:eyeglass',
       },
     ]}
   />
@@ -112,58 +98,54 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
-    title="Use cases"
-    subtitle="Discover how SMD Vital Bogota's versatile template serves as the ideal solution for various use cases, providing tailored solutions to drive success."
+    title="Casos de Uso"
+    subtitle="Descubre cómo SMD Vital Bogotá puede ayudarte en el cuidado de tus heridas."
     isReversed
     items={[
       {
-        title: 'Description:',
+        title: 'Tratamiento de Heridas Postquirúrgicas',
         description:
-          'Are you a startup with big dreams? SMD Vital Bogota propels your success. Our template forges a seamless online presence, attracting investors and customers from day one. Astro 4.0 and Tailwind CSS ensure striking, responsive sites, leaving lasting impressions. Countless startups leverage SMD Vital Bogota to kickstart their journey and resonate with audiences.',
+          'Atendemos heridas quirúrgicas con el máximo cuidado, asegurando una cicatrización rápida y efectiva.',
       },
       {
-        title: 'Benefits:',
-        description: `Allow startups to quickly create professional websites without investing extensive time and resources. <br /> Make a memorable first impression with visually appealing design elements that highlight your startup's unique value proposition. <br /> Ensures your website looks stunning and works well on all devices. <br /> Engage potential investors and customers with engaging content, clear messaging, and intuitive navigation.`,
+        title: 'Cura de Heridas Crónicas',
+        description: `Brindamos atención especializada a pacientes con heridas crónicas como úlceras por presión o pie diabético.`,
+      },
+      {
+        title: 'Heridas Traumáticas',
+        description: `Atendemos heridas causadas por accidentes, garantizando limpieza adecuada y manejo del dolor.`,
+      },
+      {
+        title: 'Cuidado de Heridas Complejas',
+        description: `Nos especializamos en el tratamiento de heridas profundas o infectadas, con protocolos avanzados de cuidado médico.`,
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1620558138198-cfb9b4f3c294?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1671&q=80',
-      alt: 'Startup Image',
+      src: 'https://images.unsplash.com/photo-1600974162892-b844b2a58b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Casos de Uso de Cura de Heridas',
     }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Startup success stories: <br /><span class="text-2xl">Launching with SMD Vital Bogota</span>
-      </h3>
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
-
-  <!-- Content Widget **************** -->
+  />
 
   <Content
     isAfterContent={true}
     items={[
       {
-        title: 'Description:',
-        description: `For SaaS businesses, user experience is key. SMD Vital Bogota enhances showcasing SaaS solutions intuitively. The template's Astro 4.0 and Tailwind CSS integration guarantees user-friendly experience, mirroring your software's efficiency. Customize pages to communicate SaaS value and solutions for your audience.`,
+        title: 'Tratamiento de Heridas Complejas',
+        description: `Especializados en heridas profundas o infectadas, aplicamos técnicas avanzadas para promover una recuperación efectiva.`,
       },
       {
-        title: 'Benefits:',
-        description: `Ensuring a cohesive and user-centric design for your SaaS website. <br /> Effectively communicate complex SaaS features through visual aids, animations, and interactive elements. <br /> Prioritize user needs and pain points through well-structured layouts and clear navigation. <br /> Encourage visitors to take action with strategically placed CTAs. <br /> Ensures your SaaS website works seamlessly across all devices.`,
+        title: 'Beneficios:',
+        description: `Evaluación precisa y cuidado profesional. <br /> Materiales de alta calidad para una cura óptima. <br /> Monitoreo continuo para ajustar el tratamiento según necesidad.`,
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1531973486364-5fa64260d75b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1658&q=80',
-      alt: 'SaaS Businesses Image',
+      alt: 'Heridas Complejas',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        SaaS showcase: <br /><span class="text-2xl">Streamlining user experience</span>
+        Tratamiento Avanzado <br /><span class="text-2xl">para Heridas Complejas</span>
       </h3>
     </Fragment>
 
@@ -171,30 +153,28 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
-  <!-- Content Widget **************** -->
 
   <Content
     isReversed
     isAfterContent={true}
     items={[
       {
-        title: 'Description:',
-        description: `Your portfolio is your masterpiece, and SMD Vital Bogota is your canvas. Whether you're a designer, photographer, artist, or any other creative professional, SMD Vital Bogota empowers you to showcase your work with elegance and sophistication. Tailored to highlight your creative projects, SMD Vital Bogota's templates offer a visually immersive experience that lets your portfolio shine.`,
+        title: 'Atención a Heridas Crónicas',
+        description: `Tratamos úlceras por presión, pie diabético y otras heridas persistentes, mejorando la calidad de vida de los pacientes.`,
       },
       {
-        title: 'Benefits:',
-        description: `Serve as a captivating backdrop to showcase your creative work, capturing attention and leaving a lasting impression. <br /> Tailor your portfolio to reflect your unique style and artistic vision. <br /> Prioritizes visuals, allowing you to present your work in high-resolution detail that draws viewers into your creations. <br /> Enables seamless navigation for effortless portfolio exploration.`,
+        title: 'Beneficios:',
+        description: `Seguimiento continuo por especialistas. <br /> Métodos innovadores para fomentar la cicatrización. <br /> Reducción de riesgos asociados a infecciones prolongadas.`,
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Portfolio Image',
+      alt: 'Heridas Crónicas',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Creative portfolios: <br /><span class="text-2xl">Highlighting your work</span>
+        Manejo Efectivo <br /><span class="text-2xl">de Heridas Crónicas</span>
       </h3>
     </Fragment>
 
@@ -202,28 +182,26 @@ const metadata = {
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
-  <!-- Content Widget **************** -->
 
   <Content
     items={[
       {
-        title: 'Description:',
-        description: `For small businesses, a well-crafted website can be a game-changer. SMD Vital Bogota empowers small businesses to not only establish a credible online presence but also convert visitors into loyal customers. The template's thoughtful design and optimization features ensure that your website doesn't just attract attention but also guides visitors through a seamless journey, ultimately leading to conversions.`,
+        title: 'Atención Postquirúrgica',
+        description: `Nos encargamos del cuidado de heridas postquirúrgicas, asegurando una recuperación libre de complicaciones.`,
       },
       {
-        title: 'Benefits:',
-        description: `Present your small business with a professional and polished website that instills confidence and trust among visitors. <br /> Strategically placed CTAs, user-friendly forms, and optimized layouts work together to drive user engagement and conversions. <br /> Ensure a smooth browsing experience, reducing bounce rates and encouraging interaction.`,
+        title: 'Beneficios:',
+        description: `Cuidado profesional desde el primer día. <br /> Técnicas para minimizar el riesgo de infecciones. <br /> Supervisión médica para una cicatrización acelerada.`,
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1514621166532-aa7eb1a3a2f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Small Business Image',
+      alt: 'Atención Postquirúrgica',
     }}
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Small business growth: <br /><span class="text-2xl">Converting visitors into customers</span>
+        Cuidado Integral <br /><span class="text-2xl">Postquirúrgico</span>
       </h3>
     </Fragment>
 
@@ -232,74 +210,26 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Pricing Widget ******************* -->
-
-  <Pricing
-    title="Flexible pricing plans"
-    prices={[
-      {
-        title: 'free',
-        subtitle: 'Access to core features and a wide range of templates',
-        price: '0',
-        period: '/ month',
-        callToAction: {
-          target: '_blank',
-          text: 'WhatsApp for Free',
-          href: '#',
-        },
-      },
-      {
-        title: 'pro',
-        subtitle: 'Premium templates and advanced customization',
-        price: 15,
-        period: '/ Month',
-        callToAction: {
-          target: '_blank',
-          text: 'Upgrade to Pro',
-          href: '#',
-        },
-        hasRibbon: true,
-        ribbonTitle: 'popular',
-      },
-      {
-        title: 'Enterprise',
-        subtitle: 'Tailored solutions for large-scale projects',
-        price: 45,
-        period: '/ Month',
-        callToAction: {
-          target: '_blank',
-          text: 'Unlock Enterprise Features',
-          href: '#',
-        },
-      },
-    ]}
-  />
-
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
+    title="Preguntas frecuentes"
     items={[
       {
-        title: 'Is SMD Vital Bogota compatible with the latest versions of Astro and Tailwind CSS?',
+        title: '¿Qué incluye el servicio de cura de heridas?',
         description:
-          'Yes, SMD Vital Bogota is designed to be compatible with the latest versions of both Astro and Tailwind CSS. This ensures that you can harness the full capabilities of these technologies while benefiting from the features offered by SMD Vital Bogota.',
+          'Incluye limpieza, desinfección, aplicación de materiales de curación y seguimiento del progreso hasta la recuperación completa.',
         icon: 'tabler:chevrons-right',
       },
       {
-        title: 'Can I use SMD Vital Bogota for both personal and commercial projects?',
-        description: `Certainly! SMD Vital Bogota is versatile and can be used for a wide range of projects, including both personal and commercial endeavors. Whether you're building a professional portfolio, launching a startup, or creating a marketing website, SMD Vital Bogota has you covered.`,
+        title: '¿El servicio está disponible para heridas de cualquier tipo?',
+        description: `Sí, tratamos heridas simples, complejas, crónicas y postquirúrgicas con técnicas especializadas.`,
         icon: 'tabler:chevrons-right',
       },
       {
-        title: 'What level of coding knowledge is required to use SMD Vital Bogota?',
+        title: '¿Se realiza el servicio a domicilio?',
         description:
-          'While some familiarity with HTML, CSS, and web development concepts is helpful, the user-friendly interface and customization options allow those with limited coding experience to create impressive websites. For more advanced users, SMD Vital Bogota offers extensive customization capabilities.',
-        icon: 'tabler:chevrons-right',
-      },
-      {
-        title: 'Is customer support available for SMD Vital Bogota users seeking guidance?',
-        description: `Absolutely, our dedicated customer support team is here to assist you with any questions or challenges you may encounter. Feel free to Contactanos through our support channels, and we'll be happy to provide the help you need.`,
+          'Sí, ofrecemos atención domiciliaria para que puedas recibir tratamiento profesional sin desplazarte.',
         icon: 'tabler:chevrons-right',
       },
     ]}
@@ -312,15 +242,15 @@ const metadata = {
   <!-- Steps2 Widget ****************** -->
 
   <Steps2
-    title="Contactanos"
-    subtitle="¿Tienes preguntas? No dudes en contactarnos mediante el siguiente formulario. ¡Estamos aquí para ayudarte!"
+    title="Contáctanos"
+    subtitle="¿Tienes preguntas sobre nuestro servicio de cura de heridas? ¡Estamos aquí para ayudarte!"
     callToAction={{
       text: 'WhatsApp',
-      href: '/',
+      href: 'https://wa.me/573042912564',
     }}
     items={[
       {
-        title: 'Correo electronico',
+        title: 'Correo electrónico',
         description: 'salud@smdvitalbogota.com',
         icon: 'tabler:mail',
       },
@@ -330,7 +260,7 @@ const metadata = {
         icon: 'tabler:headset',
       },
       {
-        title: 'Siguenos',
+        title: 'Síguenos',
         description: '@smdvitalbogota',
         icon: 'tabler:brand-twitter',
       },
@@ -341,8 +271,8 @@ const metadata = {
 
   <BlogLatestPosts
     id="blog"
-    title="Encuentra más contenido en nuestro Blog"
-    information={`Este blog ha sido creado para ayudarte a entender la importancia de la prevención a tiempo. Cada artículo te mostrará cómo prevenir enfermedades y mantener una buena salud. ¡Gracias por leer!`}
+    title="Conoce más sobre el cuidado de heridas"
+    information={`Nuestro blog está diseñado para ofrecerte información útil y consejos sobre cómo cuidar tus heridas de manera efectiva. ¡Gracias por leernos!`}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>

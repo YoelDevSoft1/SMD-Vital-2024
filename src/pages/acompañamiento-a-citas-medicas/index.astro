@@ -6,15 +6,14 @@ import Hero2 from '~/components/widgets/Hero2.astro';
 import Features from '~/components/widgets/Features.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
-import Pricing from '~/components/widgets/Pricing.astro';
 
 import { headerData } from '~/navigation';
 import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
-  title: 'Servicios Médicos Domiciliarios en Bogotá | SMD Vital',
-  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Olvídate del tráfico y las largas esperas en salas de espera, ¡contáctanos!',
+  title: 'Acompañamiento a Citas Médicas en Bogotá | SMD Vital',
+  description: 'Recibe acompañamiento profesional a citas médicas en Bogotá con SMD Vital. Garantiza asistencia, apoyo y orientación en tus consultas médicas de manera segura y confiable.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -42,27 +41,24 @@ const metadata = {
   <!-- Hero2 Widget ******************* -->
 
   <Hero2
-    tagline="SaaS Web Demo"
+    tagline="Tu Aliado en el Acompañamiento Médico"
     actions={[
-      { variant: 'primary', target: '_blank', text: 'WhatsApp', href: 'https://github.com/Yoel Dev Soft/astrowind' },
-      { text: 'Llamada de emergencia', href: '#features' },
+      { variant: 'primary', target: '_blank', text: 'WhatsApp', href: 'https://wa.me/573042912564' },
+      { variant: 'secondary', text: 'Llamada de emergencia', href: '#features' },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'SMD Vital Bogota Hero Image',
+      alt: 'Acompañamiento a Citas Médicas',
     }}
   >
     <Fragment slot="title">
-      Simplify web design with Astrowind: <br /> your ultimate <span class="text-accent dark:text-white highlight"
-        >SaaS</span
-      > companion<br />
+      Facilita tu Experiencia Médica con <br /><span class="text-accent dark:text-white highlight">SMD Vital</span><br />
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Elevate your website creation process with <span class="font-semibold">SMD Vital Bogota</span>'s SaaS solutions.</span
-      >
-      Seamlessly blend the power of Astro 4.0 and Tailwind CSS to craft websites that resonate with your brand and audience.
+        Con <span class="font-semibold">SMD Vital Bogotá</span>, te acompañamos en cada paso de tu consulta médica.</span>
+      Nuestro servicio garantiza apoyo logístico, emocional y de comunicación con el personal médico para una experiencia segura y tranquila.
     </Fragment>
   </Hero2>
 
@@ -70,41 +66,31 @@ const metadata = {
 
   <Features
     id="features"
-    title="Why choose SMD Vital Bogota?"
-    subtitle="Each of the following features enhances SMD Vital Bogota's value proposition."
+    title="¿Por qué elegir nuestro Acompañamiento a Citas Médicas?"
+    subtitle="Beneficios únicos de nuestro servicio en Bogotá"
     columns={2}
     items={[
       {
-        title: 'Integration of Astro 4.0 and Tailwind CSS',
+        title: 'Asistencia personalizada',
         description:
-          'Offers a powerful combination that enhances both the development process and the end-user experience. Also, allows to build dynamic and visually stunning websites with optimized performance.',
+          'Nuestro equipo garantiza un acompañamiento ajustado a tus necesidades, brindando apoyo logístico y emocional en cada etapa de tu cita médica.',
         icon: 'tabler:layers-union',
       },
       {
-        title: 'Versatile design for startups, small businesses, and more',
-        description: `Easily customize SMD Vital Bogota to harmonize with the unique branding and identity of your venture. SMD Vital Bogota's versatile design adapts to suit your needs.`,
+        title: 'Comunicación eficaz con los profesionales médicos',
+        description: `Facilitamos la interacción con el personal médico, asegurando que comprendas claramente los procedimientos y recomendaciones durante tu cita.`,
         icon: 'tabler:artboard',
       },
       {
-        title: 'Effortless customization for portfolios and marketing sites',
+        title: 'Apoyo para personas mayores o con movilidad reducida',
         description:
-          'With intuitive customization, easily showcase portfolio pieces, case studies, project highlights, and relevant content. Ideal for creative professionals and businesses looking to highlight their expertise.',
+          'Especialmente diseñado para quienes necesitan asistencia adicional, asegurando su comodidad y tranquilidad en todo momento.',
         icon: 'tabler:writing',
       },
       {
-        title: 'Optimized landing pages and engaging blogs',
-        description: `Landing pages are strategically designed to captivate visitors and prompt specific actions. Additionally, the blog creation feature empowers sharing insights, engaging the audience.`,
+        title: 'Puntualidad y organización',
+        description: `Te ayudamos a coordinar tus citas médicas, evitando retrasos y garantizando que todo fluya sin inconvenientes.`,
         icon: 'tabler:podium',
-      },
-      {
-        title: 'Fast loading times and production-ready code',
-        description: `Using Astro 4.0 ensures fast loading and seamless rendering, enhancing browsing. The code follows best practices, improving user experience, SEO, and reducing bounce rates.`,
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'SEO-optimized structure for enhanced visibility',
-        description: `Follows SEO best practices with clean code, semantic HTML markup, and fast loading, enhancing search engine rankings. SMD Vital Bogota's SEO structure ensures visibility to potential customers and clients.`,
-        icon: 'tabler:eyeglass',
       },
     ]}
   />
@@ -112,35 +98,33 @@ const metadata = {
   <!-- Content Widget **************** -->
 
   <Content
-    title="Use cases"
-    subtitle="Discover how SMD Vital Bogota's versatile template serves as the ideal solution for various use cases, providing tailored solutions to drive success."
+    title="Casos de Uso"
+    subtitle="Descubre cómo SMD Vital Bogotá ofrece soluciones personalizadas para todas tus necesidades médicas."
     isReversed
     items={[
       {
-        title: 'Description:',
+        title: 'Atención a Pacientes Crónicos',
         description:
-          'Are you a startup with big dreams? SMD Vital Bogota propels your success. Our template forges a seamless online presence, attracting investors and customers from day one. Astro 4.0 and Tailwind CSS ensure striking, responsive sites, leaving lasting impressions. Countless startups leverage SMD Vital Bogota to kickstart their journey and resonate with audiences.',
+          'Ideal para pacientes que requieren consultas regulares y seguimiento especializado. Nos aseguramos de que cada cita sea eficiente y ajustada a sus necesidades.',
       },
       {
-        title: 'Benefits:',
-        description: `Allow startups to quickly create professional websites without investing extensive time and resources. <br /> Make a memorable first impression with visually appealing design elements that highlight your startup's unique value proposition. <br /> Ensures your website looks stunning and works well on all devices. <br /> Engage potential investors and customers with engaging content, clear messaging, and intuitive navigation.`,
+        title: 'Acompañamiento a Personas Mayores',
+        description: `Brindamos apoyo a personas mayores, garantizando que se sientan seguras y cómodas en cada cita médica. Nuestro equipo está capacitado para atender sus necesidades específicas.`,
+      },
+      {
+        title: 'Asistencia para Consultas Especializadas',
+        description: `Facilitamos tu experiencia en citas médicas con especialistas, asegurándonos de que entiendas los diagnósticos y tratamientos sugeridos.`,
+      },
+      {
+        title: 'Apoyo en Exámenes Médicos',
+        description: `Te asistimos durante la realización de exámenes médicos, garantizando que sigas los procedimientos correctamente y sin estrés.`,
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1620558138198-cfb9b4f3c294?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1671&q=80',
-      alt: 'Startup Image',
+      src: 'https://images.unsplash.com/photo-1580481072645-022f9a6dbf27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Acompañamiento a Pacientes',
     }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Startup success stories: <br /><span class="text-2xl">Launching with SMD Vital Bogota</span>
-      </h3>
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+  />
 
   <!-- Content Widget **************** -->
 
@@ -148,12 +132,12 @@ const metadata = {
     isAfterContent={true}
     items={[
       {
-        title: 'Description:',
-        description: `For SaaS businesses, user experience is key. SMD Vital Bogota enhances showcasing SaaS solutions intuitively. The template's Astro 4.0 and Tailwind CSS integration guarantees user-friendly experience, mirroring your software's efficiency. Customize pages to communicate SaaS value and solutions for your audience.`,
+        title: 'Apoyo en Tratamientos Especializados',
+        description: `Nuestro equipo te acompaña en tratamientos especializados, asegurando una experiencia médica sin estrés y con total tranquilidad.`,
       },
       {
-        title: 'Benefits:',
-        description: `Ensuring a cohesive and user-centric design for your SaaS website. <br /> Effectively communicate complex SaaS features through visual aids, animations, and interactive elements. <br /> Prioritize user needs and pain points through well-structured layouts and clear navigation. <br /> Encourage visitors to take action with strategically placed CTAs. <br /> Ensures your SaaS website works seamlessly across all devices.`,
+        title: 'Beneficios:',
+        description: `Coordinación eficaz con especialistas médicos. <br /> Asistencia personalizada y empatía durante el proceso. <br /> Aseguramos comodidad y cumplimiento de cada etapa médica.`,
       },
     ]}
     image={{
@@ -163,7 +147,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        SaaS showcase: <br /><span class="text-2xl">Streamlining user experience</span>
+        Acompañamiento en Tratamientos <br /><span class="text-2xl">para tu Tranquilidad</span>
       </h3>
     </Fragment>
 
@@ -179,12 +163,12 @@ const metadata = {
     isAfterContent={true}
     items={[
       {
-        title: 'Description:',
-        description: `Your portfolio is your masterpiece, and SMD Vital Bogota is your canvas. Whether you're a designer, photographer, artist, or any other creative professional, SMD Vital Bogota empowers you to showcase your work with elegance and sophistication. Tailored to highlight your creative projects, SMD Vital Bogota's templates offer a visually immersive experience that lets your portfolio shine.`,
+        title: 'Asistencia en Procedimientos Ambulatorios',
+        description: `Brindamos apoyo para garantizar que tu experiencia en procedimientos sea fluida, cómoda y segura.`,
       },
       {
-        title: 'Benefits:',
-        description: `Serve as a captivating backdrop to showcase your creative work, capturing attention and leaving a lasting impression. <br /> Tailor your portfolio to reflect your unique style and artistic vision. <br /> Prioritizes visuals, allowing you to present your work in high-resolution detail that draws viewers into your creations. <br /> Enables seamless navigation for effortless portfolio exploration.`,
+        title: 'Beneficios:',
+        description: `Tranquilidad durante exámenes y procedimientos médicos. <br /> Apoyo profesional en cada paso del proceso. <br /> Aseguramos que te sientas acompañado y comprendido.`,
       },
     ]}
     image={{
@@ -194,7 +178,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Creative portfolios: <br /><span class="text-2xl">Highlighting your work</span>
+        Procedimientos Ambulatorios <br /><span class="text-2xl">Con Apoyo Profesional</span>
       </h3>
     </Fragment>
 
@@ -208,12 +192,12 @@ const metadata = {
   <Content
     items={[
       {
-        title: 'Description:',
-        description: `For small businesses, a well-crafted website can be a game-changer. SMD Vital Bogota empowers small businesses to not only establish a credible online presence but also convert visitors into loyal customers. The template's thoughtful design and optimization features ensure that your website doesn't just attract attention but also guides visitors through a seamless journey, ultimately leading to conversions.`,
+        title: 'Acompañamiento Pediátrico',
+        description: `Especialmente diseñado para cuidar de los más pequeños durante consultas o procedimientos médicos. Garantizamos su comodidad y bienestar.`,
       },
       {
-        title: 'Benefits:',
-        description: `Present your small business with a professional and polished website that instills confidence and trust among visitors. <br /> Strategically placed CTAs, user-friendly forms, and optimized layouts work together to drive user engagement and conversions. <br /> Ensure a smooth browsing experience, reducing bounce rates and encouraging interaction.`,
+        title: 'Beneficios:',
+        description: `Atención personalizada y cariñosa para niños. <br /> Reducción de la ansiedad en procesos médicos. <br /> Tranquilidad para los padres en todo momento.`,
       },
     ]}
     image={{
@@ -223,7 +207,7 @@ const metadata = {
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-        Small business growth: <br /><span class="text-2xl">Converting visitors into customers</span>
+        Atención Pediátrica <br /><span class="text-2xl">Para su Bienestar</span>
       </h3>
     </Fragment>
 
@@ -232,74 +216,26 @@ const metadata = {
     </Fragment>
   </Content>
 
-  <!-- Pricing Widget ******************* -->
-
-  <Pricing
-    title="Flexible pricing plans"
-    prices={[
-      {
-        title: 'free',
-        subtitle: 'Access to core features and a wide range of templates',
-        price: '0',
-        period: '/ month',
-        callToAction: {
-          target: '_blank',
-          text: 'WhatsApp for Free',
-          href: '#',
-        },
-      },
-      {
-        title: 'pro',
-        subtitle: 'Premium templates and advanced customization',
-        price: 15,
-        period: '/ Month',
-        callToAction: {
-          target: '_blank',
-          text: 'Upgrade to Pro',
-          href: '#',
-        },
-        hasRibbon: true,
-        ribbonTitle: 'popular',
-      },
-      {
-        title: 'Enterprise',
-        subtitle: 'Tailored solutions for large-scale projects',
-        price: 45,
-        period: '/ Month',
-        callToAction: {
-          target: '_blank',
-          text: 'Unlock Enterprise Features',
-          href: '#',
-        },
-      },
-    ]}
-  />
-
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="Frequently Asked Questions"
+    title="Preguntas frecuentes"
     items={[
       {
-        title: 'Is SMD Vital Bogota compatible with the latest versions of Astro and Tailwind CSS?',
+        title: '¿Qué incluye el servicio de acompañamiento a citas médicas?',
         description:
-          'Yes, SMD Vital Bogota is designed to be compatible with the latest versions of both Astro and Tailwind CSS. This ensures that you can harness the full capabilities of these technologies while benefiting from the features offered by SMD Vital Bogota.',
+          'Incluye asistencia personalizada desde el inicio hasta el final de tu cita, apoyo logístico, comunicación con el personal médico y orientación en procedimientos necesarios.',
         icon: 'tabler:chevrons-right',
       },
       {
-        title: 'Can I use SMD Vital Bogota for both personal and commercial projects?',
-        description: `Certainly! SMD Vital Bogota is versatile and can be used for a wide range of projects, including both personal and commercial endeavors. Whether you're building a professional portfolio, launching a startup, or creating a marketing website, SMD Vital Bogota has you covered.`,
+        title: '¿Está disponible el servicio para cualquier tipo de cita médica?',
+        description: `Sí, ofrecemos acompañamiento para consultas generales, citas de especialidad, exámenes médicos y procedimientos ambulatorios.`,
         icon: 'tabler:chevrons-right',
       },
       {
-        title: 'What level of coding knowledge is required to use SMD Vital Bogota?',
+        title: '¿El servicio es adecuado para personas mayores?',
         description:
-          'While some familiarity with HTML, CSS, and web development concepts is helpful, the user-friendly interface and customization options allow those with limited coding experience to create impressive websites. For more advanced users, SMD Vital Bogota offers extensive customization capabilities.',
-        icon: 'tabler:chevrons-right',
-      },
-      {
-        title: 'Is customer support available for SMD Vital Bogota users seeking guidance?',
-        description: `Absolutely, our dedicated customer support team is here to assist you with any questions or challenges you may encounter. Feel free to Contactanos through our support channels, and we'll be happy to provide the help you need.`,
+          'Absolutamente. Nuestro equipo está capacitado para brindar el apoyo necesario a personas mayores o con necesidades específicas, asegurando su bienestar durante el proceso.',
         icon: 'tabler:chevrons-right',
       },
     ]}
@@ -312,15 +248,15 @@ const metadata = {
   <!-- Steps2 Widget ****************** -->
 
   <Steps2
-    title="Contactanos"
-    subtitle="¿Tienes preguntas? No dudes en contactarnos mediante el siguiente formulario. ¡Estamos aquí para ayudarte!"
+    title="Contáctanos"
+    subtitle="¿Tienes preguntas sobre nuestro servicio de acompañamiento? ¡Estamos aquí para ayudarte!"
     callToAction={{
       text: 'WhatsApp',
-      href: '/',
+      href: 'https://wa.me/573042912564',
     }}
     items={[
       {
-        title: 'Correo electronico',
+        title: 'Correo electrónico',
         description: 'salud@smdvitalbogota.com',
         icon: 'tabler:mail',
       },
@@ -330,7 +266,7 @@ const metadata = {
         icon: 'tabler:headset',
       },
       {
-        title: 'Siguenos',
+        title: 'Síguenos',
         description: '@smdvitalbogota',
         icon: 'tabler:brand-twitter',
       },
@@ -341,8 +277,8 @@ const metadata = {
 
   <BlogLatestPosts
     id="blog"
-    title="Encuentra más contenido en nuestro Blog"
-    information={`Este blog ha sido creado para ayudarte a entender la importancia de la prevención a tiempo. Cada artículo te mostrará cómo prevenir enfermedades y mantener una buena salud. ¡Gracias por leer!`}
+    title="Conoce más sobre nuestros servicios"
+    information={`Nuestro blog está diseñado para ofrecerte información útil y consejos sobre cómo aprovechar al máximo nuestros servicios médicos. ¡Gracias por leernos!`}
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>

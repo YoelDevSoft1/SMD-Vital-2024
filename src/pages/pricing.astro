@@ -9,237 +9,168 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
   title: 'Servicios Médicos Domiciliarios en Bogotá | SMD Vital',
-  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Olvídate del tráfico y las largas esperas en salas de espera, ¡contáctanos!',
+  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Evita el tráfico y las largas esperas, ¡contáctanos hoy mismo!',
   ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
-
   <HeroText
-    tagline="Pricing"
-    title="Stellar Pricing for Every Journey"
-    subtitle="Choose the perfect plan that aligns with your cosmic goals."
+    tagline="Precios"
+    title="Servicios Médicos Domiciliarios a tu Alcance"
+    subtitle="Conoce las opciones que ofrecemos para cuidar de tu salud en la comodidad de tu hogar."
   />
 
   <!-- Pricing Widget ******************* -->
-
   <Prices
-    title="Our prices"
-    subtitle="Only pay for what you need"
+    title="Nuestros Servicios"
+    subtitle="Cada servicio tiene un precio determinado que puede variar según tus necesidades. Nuestros asesores están disponibles para brindarte la información exacta."
     prices={[
       {
-        title: 'basic',
-        subtitle: 'Optimal choice for personal use',
-        price: 29,
-        period: 'per month',
+        title: 'Consulta Médica Domiciliaria',
+        subtitle: 'Atención médica integral en tu hogar',
+        price: 'Consultar con un asesor',
+        period: '',
         items: [
-          {
-            description: 'Etiam in libero, et volutpat',
-          },
-          {
-            description: 'Aenean ac nunc dolor tristique',
-          },
-          {
-            description: 'Cras scelerisque accumsan lib',
-          },
-          {
-            description: 'In hac habitasse',
-          },
+          { description: 'Evaluación médica completa' },
+          { description: 'Recomendaciones de tratamiento' },
+          { description: 'Seguimiento según el caso' },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
-          href: '#',
+          text: 'Consultar precio con un asesor',
+          href: 'https://wa.me/573042912564',
         },
       },
       {
-        title: 'standard',
-        subtitle: 'Optimal choice for small teams',
-        price: 69,
-        period: 'Per Month',
+        title: 'Toma de Muestras a Domicilio',
+        subtitle: 'Exámenes clínicos sin salir de casa',
+        price: 'Consultar con un asesor',
+        period: '',
         items: [
-          {
-            description: 'Proin vel laoreet',
-          },
-          {
-            description: 'Ut efficitur habitasse egestas',
-          },
-          {
-            description: 'Volutpat hac curabitur',
-          },
-          {
-            description: 'Pellentesque blandit ut nibh',
-          },
-          {
-            description: 'Donec fringilla sem',
-          },
+          { description: 'Extracción de sangre y otras muestras' },
+          { description: 'Procesamiento en laboratorios certificados' },
+          { description: 'Envío de resultados en línea' },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
-          href: '#',
+          text: 'Consultar precio con un asesor',
+          href: 'https://wa.me/573042912564',
         },
         hasRibbon: true,
-        ribbonTitle: 'popular',
+        ribbonTitle: 'Recomendado',
       },
       {
-        title: 'premium',
-        subtitle: 'Optimal choice for companies',
-        price: 199,
-        period: 'Per Month',
+        title: 'Cuidado Postoperatorio en Casa',
+        subtitle: 'Atención especializada después de cirugías',
+        price: 'Consultar con un asesor',
+        period: '',
         items: [
-          {
-            description: 'Curabitur suscipit risus',
-          },
-          {
-            description: 'Aliquam habitasse malesuada',
-          },
-          {
-            description: 'Suspendisse sit amet blandit',
-          },
-          {
-            description: 'Suspendisse auctor blandit dui',
-          },
+          { description: 'Curaciones y seguimiento de heridas' },
+          { description: 'Control de signos vitales' },
+          { description: 'Orientación en cuidados adicionales' },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Get started',
-          href: '#',
+          text: 'Consultar precio con un asesor',
+          href: 'https://wa.me/573042912564',
         },
       },
     ]}
   />
 
   <!-- Features3 Widget ************** -->
-
   <Features3
-    title="Price-related features"
-    subtitle="Discover the advantages of choosing our plans"
+    title="Beneficios de Nuestros Servicios"
+    subtitle="Al elegir SMD Vital, obtienes múltiples ventajas que mejoran tu experiencia de cuidado médico a domicilio."
     columns={2}
     items={[
       {
-        title: 'Tiered Pricing Plans',
-        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
-        icon: 'tabler:stairs',
+        title: 'Atención Personalizada',
+        description: 'Cada paciente es único. Adaptamos nuestro servicio a tus necesidades específicas.',
+        icon: 'tabler:user',
       },
       {
-        title: 'Transparent Pricing',
-        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
-        icon: 'tabler:flip-vertical',
+        title: 'Transparencia en Precios',
+        description: 'Nuestros asesores te informarán el costo exacto antes de agendar el servicio, sin gastos ocultos.',
+        icon: 'tabler:cash',
       },
       {
-        title: 'Secure Payment Methods',
-        description: 'Secure payment gateways to protect your financial information during transactions.',
-        icon: 'tabler:shield-lock',
+        title: 'Profesionales Calificados',
+        description: 'Contamos con un equipo médico certificado y con experiencia en atención domiciliaria.',
+        icon: 'tabler:shield-check',
       },
       {
-        title: 'Instant Access',
-        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
-        icon: 'tabler:accessible',
-      },
-      {
-        title: 'Upgrade Value',
-        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
-        icon: 'tabler:chevrons-up',
-      },
-      {
-        title: '24H support',
-        description: 'Questions answered via live chat, email or phone, every calendar day.',
-        icon: 'tabler:headset',
+        title: 'Ahorro de Tiempo',
+        description: 'Evita desplazamientos y esperas prolongadas, recibiendo la atención directamente en tu hogar.',
+        icon: 'tabler:clock',
       },
     ]}
     classes={{ container: 'max-w-5xl' }}
   />
 
   <!-- Steps Widget ****************** -->
-
   <Steps
-    title="A guided journey from plans to creativity"
-    tagline="simplified process"
+    title="¿Cómo funciona el proceso?"
+    tagline="Fácil y Rápido"
     isReversed={true}
     items={[
-      {
-        title: 'Explore plans',
-        icon: 'tabler:number-1',
-      },
-      {
-        title: 'Select a plan',
-        icon: 'tabler:number-2',
-      },
-      {
-        title: 'WhatsApp / Log In',
-        icon: 'tabler:number-3',
-      },
-      {
-        title: 'Review order',
-        icon: 'tabler:number-4',
-      },
-      {
-        title: 'Enter payment details',
-        icon: 'tabler:number-5',
-      },
-      {
-        title: 'Confirmation',
-        icon: 'tabler:number-6',
-      },
-      {
-        title: 'Download and start using the template(s)',
-        icon: 'tabler:number-7',
-      },
+      { title: 'Contáctanos', icon: 'tabler:number-1' },
+      { title: 'Consulta con un asesor', icon: 'tabler:number-2' },
+      { title: 'Recibe información sobre precios y disponibilidad', icon: 'tabler:number-3' },
+      { title: 'Agenda tu servicio', icon: 'tabler:number-4' },
+      { title: 'Disfruta de la atención en tu hogar', icon: 'tabler:number-5' },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Steps image',
+      src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
+      alt: 'Proceso de atención domiciliaria',
     }}
   />
 
   <!-- FAQs Widget ******************* -->
-
   <FAQs
-    title="Pricing FAQs"
-    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
+    title="Preguntas Frecuentes sobre Precios"
+    subtitle="Entendemos que la claridad es importante. Estas respuestas pueden ayudarte a resolver tus dudas sobre nuestros costos y servicios."
     columns={1}
     items={[
       {
-        title: 'Do the plans come with customer support?',
+        title: '¿Cómo obtengo el precio exacto del servicio?',
         description:
-          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
+          'Nuestros asesores te brindarán el costo específico una vez conozcan tus necesidades y el tipo de servicio que requieras.',
       },
       {
-        title: 'Is there a trial period for the different plans?',
+        title: '¿Existen costos ocultos?',
         description:
-          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
+          'No. Te informaremos todos los detalles del precio antes de que agendes el servicio. Queremos que tengas una experiencia transparente.',
       },
       {
-        title: 'Can I switch between plans?',
+        title: '¿Qué métodos de pago aceptan?',
         description:
-          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
+          'Aceptamos tarjetas de crédito, débito y transferencias electrónicas. Nuestros asesores te indicarán las opciones disponibles.',
       },
       {
-        title: 'What payment methods do you accept?',
+        title: '¿Puedo cambiar el servicio contratado?',
         description:
-          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
+          'Si necesitas modificar tu solicitud, contáctanos. Haremos lo posible por adaptarnos a tus nuevas necesidades.',
       },
       {
-        title: 'Are there any hidden fees beyond the displayed cost?',
+        title: '¿Ofrecen reembolsos?',
         description:
-          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
+          'Si por alguna razón no podemos prestar el servicio acordado, nuestros asesores te informarán las opciones disponibles, incluyendo posibles devoluciones.',
       },
     ]}
   />
 
   <!-- CallToAction Widget *********** -->
-
   <CallToAction
-    title="Ready to boost your projects?"
-    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
+    title="¿Listo para recibir atención en tu hogar?"
+    subtitle="Contáctanos y descubre cómo SMD Vital puede mejorar tu calidad de vida con atención médica domiciliaria."
     actions={[
       {
         variant: 'primary',
-        text: 'Get started now',
-        href: '/',
+        text: 'Consultar con un asesor',
+        href: 'https://wa.me/573042912564',
       },
     ]}
   />

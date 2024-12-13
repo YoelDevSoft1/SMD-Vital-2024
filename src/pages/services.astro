@@ -8,219 +8,214 @@ import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
   title: 'Servicios Médicos Domiciliarios en Bogotá | SMD Vital',
-  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Olvídate del tráfico y las largas esperas en salas de espera, ¡contáctanos!',
+  description: 'Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Evita el tráfico y las largas esperas, ¡contáctanos!',
   ignoreTitleTemplate: true,
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
-
   <Hero
-    tagline="Services"
-    title="Elevate your projects with our stunning templates"
-    subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
-    actions={[{ variant: 'primary', target: '_blank', text: 'Start exploring', href: '/' }]}
+    tagline="Servicios"
+    title="Servicios Médicos Domiciliarios en Bogotá"
+    subtitle="En SMD Vital te brindamos una amplia variedad de servicios médicos básicos en la comodidad de tu hogar. Olvídate de desplazamientos y largas esperas, recibe atención profesional a tu puerta."
+    actions={[{ variant: 'primary', target: '_blank', text: 'Contáctanos', href: 'https://wa.me/573042912564' }]}
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-      alt: 'SMD Vital Bogota Hero Image',
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80',
+      alt: 'Atención médica a domicilio en Bogotá',
     }}
   />
 
   <!-- Features2 Widget ************** -->
-
   <Features2
-    title="Explore our diverse templates"
-    subtitle="Discover our selection below to streamline and elevate your projects."
+    title="Explora Nuestros Servicios"
+    subtitle="Conoce la variedad de atenciones que ofrecemos para cubrir tus necesidades de salud en casa."
     columns={3}
     items={[
       {
-        title: 'Educational',
+        title: 'Consulta Médica Domiciliaria',
+        description: 'Evaluación integral, diagnóstico y recomendaciones de tratamiento sin salir de tu hogar.',
+        icon: 'tabler:stethoscope',
+      },
+      {
+        title: 'Toma de Muestras',
         description:
-          'By harmonizing instructional design and visual appeal, templates streamline content creation for varied materials, expediting development and cultivating engaging educational spaces.',
-        icon: 'tabler:school',
+          'Realizamos exámenes clínicos (sangre, orina, etc.) en tu domicilio, evitando desplazamientos y garantizando resultados confiables.',
+        icon: 'tabler:needle',
       },
       {
-        title: 'Interior Design',
+        title: 'Cuidado Postoperatorio',
         description:
-          'Crafting functional, visually appealing spaces for residential and commercial use. Templates emphasize layout, colors, and furniture setups, offering a versatile toolkit for your design vision.',
-        icon: 'tabler:home-star',
+          'Atención especializada después de cirugías, incluyendo curaciones, control de signos vitales y apoyo en tu recuperación.',
+        icon: 'tabler:heart-rate-monitor',
       },
       {
-        title: 'Photography',
-        description: `Empowering photographers, our templates facilitate captivating storytelling. With a keen focus on layout, galleries, and typography, they cater to both professionals and enthusiasts.`,
-        icon: 'tabler:photo',
-      },
-      {
-        title: 'E-commerce',
+        title: 'Lavado de Oídos',
         description:
-          'Developing engaging online stores, our E-commerce templates ensure a dynamic presence to effectively showcase products. Ideal for startups or revamps.',
-        icon: 'tabler:shopping-cart',
+          'Eliminación de cerumen y alivio de molestias auditivas con técnicas seguras y profesionales.',
+        icon: 'tabler:ear',
       },
       {
-        title: 'Blog',
+        title: 'Inyectología a Domicilio',
         description:
-          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
-        icon: 'tabler:article',
-      },
-      {
-        title: 'Business',
-        description:
-          'Providing polished options for effective visual communication, these templates empower both startups and established companies for a professional brand presence.',
-        icon: 'tabler:building-store',
-      },
-      {
-        title: 'Branding',
-        description:
-          'Offering pre-designed elements for a consistent brand identity, including logos and marketing materials. Ideal for new ventures or revamps.',
-        icon: 'tabler:arrow-big-up-lines',
-      },
-      {
-        title: 'Medical',
-        description: `From presentations to patient forms, these tools enhance communication effectiveness for healthcare professionals. Ideal for medical practices and research pursuits.`,
+          'Aplicación segura de inyecciones, vitaminas y otros tratamientos, siguiendo las indicaciones médicas.',
         icon: 'tabler:vaccine',
       },
       {
-        title: 'Fashion Design',
+        title: 'Atención COVID-19',
         description:
-          'With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.',
-        icon: 'tabler:tie',
+          'Monitoreo, cuidado y orientación para pacientes con COVID-19, asegurando un ambiente seguro en tu hogar.',
+        icon: 'tabler:virus',
+      },
+      {
+        title: 'Valoración Médica',
+        description:
+          'Examen médico completo para detectar posibles problemas de salud y orientar un tratamiento oportuno.',
+        icon: 'tabler:clipboard-heart',
+      },
+      {
+        title: 'Suero Multivitamínico',
+        description:
+          'Fortalece tu organismo con sueros y tratamientos intravenosos que mejoran tu nutrición y estado general.',
+        icon: 'tabler:bottle',
+      },
+      {
+        title: 'Monitoreo de Signos Vitales',
+        description:
+          'Control regular de tu presión arterial, frecuencia cardíaca y otros parámetros para un seguimiento continuo de tu salud.',
+        icon: 'tabler:activity-heartbeat',
       },
     ]}
   />
 
-  <!-- Content Widget **************** -->
-
+  <!-- Content Widget (Primera sección) **************** -->
   <Content
     isReversed
     items={[
       {
-        title: 'High-Quality Designs',
+        title: 'Profesionales Calificados',
         description:
-          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
-        icon: 'tabler:wand',
+          'Nuestro equipo médico está conformado por profesionales con experiencia en atención domiciliaria, garantizando una atención segura y de calidad.',
+        icon: 'tabler:user-check',
       },
       {
-        title: 'Customization Tools',
+        title: 'Atención Personalizada',
         description:
-          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
-        icon: 'tabler:settings',
+          'Adaptamos nuestros servicios a tus necesidades, brindando una experiencia única y cercana para tu bienestar.',
+        icon: 'tabler:hand-heart',
       },
       {
-        title: 'Pre-Designed Elements',
+        title: 'Tecnología Moderna',
         description:
-          'Save time and effort with our ready-to-use elements, including graphics, icons, and layouts that enhance the visual appeal of your creations.',
-        icon: 'tabler:presentation',
+          'Contamos con equipos y herramientas actualizadas que nos permiten ofrecer diagnósticos y tratamientos eficaces.',
+        icon: 'tabler:device-heart-monitor',
       },
       {
-        title: 'Preview and Mockup Views',
+        title: 'Respuesta Rápida',
         description:
-          'Visualize the final outcome before making any changes using our preview and mockup views, ensuring your projects meet your expectations.',
-        icon: 'tabler:carousel-horizontal',
+          'Agilizamos el proceso de agendamiento y atención para que recibas el servicio en el menor tiempo posible.',
+        icon: 'tabler:clock',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      alt: 'Features Image',
+      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80',
+      alt: 'Profesionales en acción',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Características Principales</h3>
     </Fragment>
   </Content>
 
-  <!-- Content Widget **************** -->
-
+  <!-- Content Widget (Segunda sección) **************** -->
   <Content
     isAfterContent
     items={[
       {
-        title: 'Time Savings',
+        title: 'Ahorro de Tiempo',
         description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
-        icon: 'tabler:clock',
+          'Evita el tráfico y las filas en salas de espera. Nuestro equipo va hasta tu domicilio, optimizando tu tiempo y esfuerzo.',
+        icon: 'tabler:road',
       },
       {
-        title: 'Professional Appearance',
+        title: 'Comodidad y Privacidad',
         description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
+          'Recibe atención médica en tu espacio personal, garantizando tu confort y un entorno más relajado.',
+        icon: 'tabler:home-heart',
       },
       {
-        title: 'Cost-Efficiency',
+        title: 'Cuidado Integral',
         description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
-        icon: 'tabler:coin',
+          'Ofrecemos una amplia gama de servicios que abarcan desde una simple consulta hasta cuidados postoperatorios.',
+        icon: 'tabler:heart-plus',
       },
       {
-        title: 'Instant Download',
+        title: 'Atención Inmediata',
         description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
+          'Agendamos tu atención de forma rápida para que recibas el cuidado que necesitas justo cuando lo requieras.',
+        icon: 'tabler:alarm',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Benefits Image',
+      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80',
+      alt: 'Beneficios del servicio',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Beneficios</h3>
     </Fragment>
   </Content>
 
   <!-- Testimonials Widget *********** -->
-
   <Testimonials
-    title="Words from real customers"
+    title="Lo que dicen nuestros pacientes"
     testimonials={[
       {
-        testimonial: `The designs are not only visually appealing but also highly professional. The templates have saved me a significant amount of time while helping me make a lasting impression on my clients.`,
-        name: 'Emily Kennedy',
-        job: 'Front-end developer',
+        testimonial: `SMD Vital me permitió recibir una consulta médica completa sin salir de casa. El médico fue muy profesional y atento a mis inquietudes. Ahorre tiempo y me sentí muy cómoda.`,
+        name: 'Laura Gómez',
+        job: 'Paciente',
         image: {
-          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
-          alt: 'Emily Kennedy Image',
+          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=930&q=80',
+          alt: 'Laura Gómez Image',
         },
       },
       {
-        testimonial: `It beautifully showcases my work, with its clean and elegant design that lets my photographs shine. Customization was a breeze, even for a non-tech person like me. The result is a professional and immersive portfolio that's garnered numerous compliments.`,
-        name: 'Sarah Hansen',
-        job: 'Photographer',
+        testimonial: `Necesitaba atención postoperatoria y el equipo de SMD Vital fue puntual y muy cuidadoso. Se notaba su experiencia. Definitivamente marcó la diferencia en mi recuperación.`,
+        name: 'Carlos Ramírez',
+        job: 'Paciente',
         image: {
-          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Sarah Hansen Image',
+          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&auto=format&fit=crop&w=774&q=80',
+          alt: 'Carlos Ramírez Image',
         },
       },
       {
-        testimonial: `I discovered these templates and I'm impressed by their variety and quality. They've helped me establish a consistent brand image across my marketing and social platforms, elevating my business's overall appearance.`,
-        name: 'Mark Wilkinson',
-        job: 'Small business owner',
+        testimonial: `El lavado de oídos en casa fue sencillo y sin dolor. SMD Vital me brindó tranquilidad y evitó que tuviera que salir y esperar en un consultorio.`,
+        name: 'María López',
+        job: 'Paciente',
         image: {
-          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
-          alt: 'Mark Wilkinson Image',
+          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&auto=format&fit=crop&w=824&q=80',
+          alt: 'María López Image',
         },
       },
     ]}
     callToAction={{
       target: '_blank',
-      text: 'More testimonials...',
-      href: 'https://github.com/Yoel Dev Soft/astrowind',
+      text: 'Más testimonios...',
+      href: 'https://wa.me/573042912564',
       icon: 'tabler:chevron-right',
     }}
   />
 
   <!-- CallToAction Widget *********** -->
-
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Start exploring',
-        href: '/',
+        text: 'Agendar ahora',
+        href: 'https://wa.me/573042912564',
       },
     ]}
-    title="Dive into our template collection"
-    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
+    title="¿Listo para recibir atención médica en tu hogar?"
+    subtitle="Contáctanos ahora y descubre cómo SMD Vital puede cuidar de ti y de tu familia con servicios médicos domiciliarios en Bogotá."
   />
 </Layout>
