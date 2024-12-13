@@ -25,7 +25,7 @@ Para los propósitos de estos Términos y Condiciones:
 
 - **Términos y Condiciones** (también referidos como "Términos") son estos Términos y Condiciones que constituyen el acuerdo completo entre Tú y la Compañía con respecto al uso del Servicio.
 
-- **Sitio Web** se refiere a SMD Vital, accesible desde [https://tusitio.com](https://tusitio.com) (reemplaza con el dominio real).
+- **Sitio Web** se refiere a SMD Vital, accesible desde [https://smdvitalbogota.com](https://smdvitalbogota.com).
 
 - **Tú** significa la persona que accede o utiliza el Servicio, o la empresa u otra entidad legal en nombre de la cual dicha persona accede o utiliza el Servicio, según corresponda.
 
