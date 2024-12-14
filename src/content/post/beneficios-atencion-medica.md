@@ -21,12 +21,15 @@ La atención médica a domicilio ha transformado la forma en que las personas ac
 ## Principales Beneficios de la Atención Médica a Domicilio
 
 ### **1. Recuperación Acelerada**
+
 Estudios han demostrado que los pacientes se recuperan más rápidamente en el entorno familiar. En casa, se sienten más relajados, lo que favorece el proceso de curación y reduce el estrés asociado con hospitalizaciones prolongadas.
 
 ### **2. Reducción de Riesgos**
+
 Evitar desplazamientos innecesarios minimiza el riesgo de exposición a infecciones, especialmente para pacientes con sistemas inmunológicos comprometidos.
 
 ### **3. Cuidado Personalizado**
+
 Cada paciente recibe un plan de atención adaptado a sus necesidades específicas, desde monitoreo de signos vitales hasta administración de medicamentos y terapias.
 
 ---
@@ -34,9 +37,11 @@ Cada paciente recibe un plan de atención adaptado a sus necesidades específica
 ## Casos Reales: Cómo la Atención Domiciliaria Cambia Vidas
 
 ### **Ejemplo 1: Doña Marta, 68 años**
+
 Doña Marta es una paciente con diabetes tipo 2 y dificultad para movilizarse. Gracias a los servicios de **SMD Vital Bogotá**, recibe controles periódicos de su nivel de glucosa y ajustes en su tratamiento sin tener que salir de casa. Esto ha mejorado significativamente su calidad de vida.
 
 ### **Ejemplo 2: Juan Carlos, 45 años**
+
 Después de una cirugía de rodilla, Juan Carlos optó por terapias físicas a domicilio. Este enfoque no solo aceleró su recuperación, sino que también le permitió evitar el estrés de los desplazamientos.
 
 ---
@@ -44,15 +49,18 @@ Después de una cirugía de rodilla, Juan Carlos optó por terapias físicas a d
 ## Servicios Clave de SMD Vital Bogotá
 
 ### **Atención Médica Personalizada**
+
 - Monitoreo de enfermedades crónicas.
 - Diagnósticos rápidos en casa.
 - Aplicación de inyecciones y terapias intravenosas.
 
 ### **Fisioterapia y Rehabilitación**
+
 - Terapias adaptadas para pacientes postquirúrgicos.
 - Ejercicios guiados para mantener o recuperar la movilidad.
 
 ### **Tomas de Muestras a Domicilio**
+
 - Servicio rápido y eficiente para análisis de laboratorio, sin salir de casa.
 
 ---
@@ -70,6 +78,7 @@ Después de una cirugía de rodilla, Juan Carlos optó por terapias físicas a d
 La atención médica domiciliaria no es solo una alternativa conveniente, es una solución integral que prioriza el bienestar del paciente. En **SMD Vital Bogotá**, estamos comprometidos con ofrecer un servicio que transforme vidas.
 
 ### **¿Listo para experimentar los beneficios?**
+
 Solicita tu consulta domiciliaria hoy mismo. Visita [SMD Vital Bogotá](https://smdvitalbogota.netlify.app/) o contáctanos para obtener más información.
 
 **Teléfono:** (+57) 123 456 7890  

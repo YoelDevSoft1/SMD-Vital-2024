@@ -35,15 +35,19 @@ La atención médica domiciliaria es fundamental para estos pacientes, ya que:
 ## Beneficios de la Atención Médica Domiciliaria para Pacientes Crónicos
 
 ### 1. **Monitoreo constante y eficaz**
+
 Nuestros médicos y enfermeros realizan chequeos regulares, como la toma de signos vitales, electrocardiogramas y análisis de sangre, para evaluar el estado de salud del paciente y ajustar los tratamientos según sea necesario.
 
 ### 2. **Prevención de complicaciones**
+
 El seguimiento domiciliario permite detectar signos de alerta tempranos, evitando hospitalizaciones innecesarias y complicaciones graves.
 
 ### 3. **Comodidad y bienestar**
+
 La atención médica en el hogar reduce el estrés asociado a los traslados y ofrece tranquilidad tanto al paciente como a sus familiares.
 
 ### 4. **Reducción de costos**
+
 El cuidado domiciliario elimina gastos relacionados con hospitalizaciones prolongadas, transporte y acompañamiento, resultando una opción más económica a largo plazo.
 
 ---
@@ -73,4 +77,5 @@ En **SMD Vital Bogotá**, ofrecemos una amplia gama de servicios diseñados para
 La atención médica domiciliaria para pacientes con enfermedades crónicas es una solución práctica, segura y eficiente que mejora significativamente la calidad de vida. Si tú o un ser querido necesita este tipo de cuidado, no dudes en contactarnos.
 
 ### **Enlace relacionado**:
+
 Consulta más información sobre nuestros servicios en [SMD Vital Bogotá](https://smdvitalbogota.netlify.app/).

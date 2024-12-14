@@ -1,16 +1,16 @@
 ---
 publishDate: 2023-07-15
-title: "Cómo las Páginas de Destino Impulsan los Servicios de Salud Domiciliaria"
-excerpt: "Descubre cómo las páginas de destino bien diseñadas pueden ayudar a promover servicios médicos a domicilio, conectando a pacientes con soluciones personalizadas en su hogar."
-image: "https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+title: 'Cómo las Páginas de Destino Impulsan los Servicios de Salud Domiciliaria'
+excerpt: 'Descubre cómo las páginas de destino bien diseñadas pueden ayudar a promover servicios médicos a domicilio, conectando a pacientes con soluciones personalizadas en su hogar.'
+image: 'https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
 tags:
   - landing-pages
   - salud-domiciliaria
   - marketing
 metadata:
-  canonical: "https://smdvitalbogota.netlify.app/landing"
-author: "Yoel Pinto"
-category: "Salud y Marketing"
+  canonical: 'https://smdvitalbogota.netlify.app/landing'
+author: 'Yoel Pinto'
+category: 'Salud y Marketing'
 ---
 
 En el dinámico panorama digital, destacarse no es solo un deseo, es una necesidad. En SMD Vital Bogota, entendemos que la conexión entre pacientes y servicios médicos comienza con una comunicación clara y efectiva. Es aquí donde las **páginas de destino** se convierten en una herramienta clave para conectar a los pacientes con servicios médicos personalizados, sin salir de casa.

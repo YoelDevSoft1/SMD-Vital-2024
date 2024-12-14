@@ -20,15 +20,19 @@ A medida que las personas envejecen, sus necesidades de salud se vuelven más co
 ## Beneficios de la Atención Médica Domiciliaria para Adultos Mayores
 
 ### **1. Comodidad y Seguridad**
+
 El hogar es el lugar donde los adultos mayores se sienten más cómodos y seguros. Al recibir atención médica en casa, se evita el estrés de los traslados y se reduce el riesgo de infecciones asociadas con hospitales.
 
 ### **2. Cuidado Personalizado**
+
 Cada paciente recibe atención adaptada a sus necesidades específicas. Nuestro equipo de médicos y enfermeros se asegura de que los tratamientos sean eficaces y adecuados para cada caso.
 
 ### **3. Apoyo Integral**
+
 La atención domiciliaria incluye una amplia gama de servicios, como monitoreo de enfermedades crónicas, administración de medicamentos, curaciones y terapias físicas, asegurando un enfoque integral de salud.
 
 ### **4. Tranquilidad para la Familia**
+
 Contar con profesionales que supervisen la salud de sus seres queridos brinda tranquilidad a los familiares, quienes pueden confiar en que el cuidado está en manos expertas.
 
 ---
@@ -36,15 +40,19 @@ Contar con profesionales que supervisen la salud de sus seres queridos brinda tr
 ## Servicios Destacados de SMD Vital Bogotá para Adultos Mayores
 
 ### **Monitoreo de Signos Vitales**
+
 Controlamos parámetros clave como presión arterial, frecuencia cardíaca y niveles de oxígeno, ayudando a prevenir complicaciones.
 
 ### **Manejo de Enfermedades Crónicas**
+
 Ofrecemos seguimiento continuo para condiciones como diabetes, hipertensión y enfermedades respiratorias, asegurando que el tratamiento sea efectivo.
 
 ### **Fisioterapia y Rehabilitación**
+
 Ayudamos a nuestros pacientes a recuperar su movilidad y mantener su independencia mediante terapias físicas personalizadas.
 
 ### **Aplicación de Medicamentos**
+
 Realizamos la administración de inyecciones y tratamientos intravenosos en el hogar, asegurando la correcta dosificación y cumplimiento.
 
 ---
@@ -68,6 +76,7 @@ Don Luis, un adulto mayor de 78 años con hipertensión y movilidad reducida, so
 La atención médica domiciliaria es una solución ideal para adultos mayores que desean recibir cuidado profesional sin abandonar la comodidad de su hogar. En **SMD Vital Bogotá**, estamos comprometidos con brindar un servicio que no solo mejore la salud de nuestros pacientes, sino que también enriquezca su calidad de vida.
 
 ### **Solicita Nuestros Servicios**
+
 Si deseas más información sobre cómo podemos ayudarte, visita nuestra página web: [SMD Vital Bogotá](https://smdvitalbogota.netlify.app/) o contáctanos directamente.
 
 **Teléfono:** (+57) 123 456 7890  
