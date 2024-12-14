@@ -140,7 +140,7 @@ export const headerData = {
       ],
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/Yoel Dev Soft/astrowind', target: '_blank' }],
+  actions: [{ text: 'WhatsApp', href: 'https://wa.link/7cprhk', target: '_blank' }],
 };
 
 export const footerData = {
@@ -185,7 +185,7 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/Yoel Dev Soft/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://wa.link/7cprhk' },
   ],
   footNote: `
     Hecho por <a class="text-blue-600 underline dark:text-muted" href="https://Yoel Dev Soft.com/"> Yoel Dev Soft</a> · Todos los derechos reservados.
