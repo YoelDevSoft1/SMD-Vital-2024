@@ -9,9 +9,9 @@ site:
 # Metadatos SEO predeterminados
 metadata:
   title:
-    default: "SMD Vital Bogota"
+    default: 'SMD Vital Bogota'
     template: '%s — SMD Vital Bogota'
-  description: "🚀 Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Olvídate del tráfico y las largas esperas en salas de espera, ¡contáctanos!"
+  description: '🚀 Nuestros médicos a domicilio en Bogotá ofrecen atención médica de calidad en la comodidad de tu hogar. Olvídate del tráfico y las largas esperas en salas de espera, ¡contáctanos!'
   robots:
     index: true
     follow: true
@@ -52,13 +52,13 @@ apps:
 
     category:
       isEnabled: true
-      pathname: 'category' # Ruta principal de categorías /category/some-category, puedes cambiar esto a "group" (/group/some-category)
+      pathname: 'categoria' # Ruta principal de categorías /category/some-category, puedes cambiar esto a "group" (/group/some-category)
       robots:
         index: true
 
     tag:
       isEnabled: true
-      pathname: 'tag' # Ruta principal de etiquetas /tag/some-tag, puedes cambiar esto a "topics" (/topics/some-category)
+      pathname: 'etiqueta' # Ruta principal de etiquetas /tag/some-tag, puedes cambiar esto a "topics" (/topics/some-category)
       robots:
         index: false
 

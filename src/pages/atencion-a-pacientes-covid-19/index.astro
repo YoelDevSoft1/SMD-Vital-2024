@@ -7,14 +7,14 @@ import Features from '~/components/widgets/Features.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
 
-
 import { headerData } from '~/navigation';
 import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
   title: 'Atención a Pacientes COVID-19 | SMD Vital',
-  description: 'Servicios especializados para la atención y cuidado de pacientes con COVID-19 en Bogotá. Atención profesional y protocolos de bioseguridad garantizados.',
+  description:
+    'Servicios especializados para la atención y cuidado de pacientes con COVID-19 en Bogotá. Atención profesional y protocolos de bioseguridad garantizados.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -27,12 +27,12 @@ const metadata = {
         {
           variant: 'secondary',
           text: 'Emergencia',
-          href: '#',
+          href: 'tel:3042912564',
         },
         {
           variant: 'primary',
           text: 'WhatsApp',
-          href: '#',
+          href: 'https://wa.me/573042912564',
         },
       ]}
       isSticky
@@ -45,10 +45,10 @@ const metadata = {
     tagline="Cuidado Integral para Pacientes COVID-19"
     actions={[
       { variant: 'primary', target: '_blank', text: 'WhatsApp', href: 'https://wa.me/573042912564' },
-      { variant: 'secondary', text: 'Llamada de emergencia', href: '#features' },
+      { variant: 'secondary', text: 'Llamada de emergencia', href: 'tel:3042912564' },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://images.pexels.com/photos/4167544/pexels-photo-4167544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Atención a Pacientes COVID-19',
     }}
   >
@@ -58,7 +58,8 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Servicios profesionales con protocolos de bioseguridad para garantizar tu salud y la de los tuyos.</span>
+        Servicios profesionales con protocolos de bioseguridad para garantizar tu salud y la de los tuyos.</span
+      >
       Contamos con un equipo especializado listo para atenderte en cualquier situación.
     </Fragment>
   </Hero2>
@@ -84,8 +85,7 @@ const metadata = {
       },
       {
         title: 'Monitoreo Continuo',
-        description:
-          'Seguimiento diario de signos vitales y síntomas para una recuperación óptima y segura.',
+        description: 'Seguimiento diario de signos vitales y síntomas para una recuperación óptima y segura.',
         icon: 'tabler:writing',
       },
       {
@@ -122,7 +122,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1591035897812-29d97d0ea361?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://images.pexels.com/photos/4167560/pexels-photo-4167560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Casos de Uso para Pacientes COVID-19',
     }}
   />
@@ -140,7 +140,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1603398938378-bd8c873bfd45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://images.pexels.com/photos/4167562/pexels-photo-4167562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Seguimiento Médico para COVID-19',
     }}
   >
@@ -169,7 +169,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1531973486364-5fa64260d75b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1658&q=80',
+      src: 'https://images.pexels.com/photos/5938374/pexels-photo-5938374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Rehabilitación Post-COVID',
     }}
   >
@@ -196,7 +196,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1514621166532-aa7eb1a3a2f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      src: 'https://images.pexels.com/photos/4687173/pexels-photo-4687173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Urgencias Domiciliarias por COVID-19',
     }}
   >
@@ -218,8 +218,7 @@ const metadata = {
     items={[
       {
         title: '¿Qué incluye el servicio de atención a pacientes COVID-19?',
-        description:
-          'Incluye monitoreo de signos vitales, administración de medicamentos y seguimiento médico.',
+        description: 'Incluye monitoreo de signos vitales, administración de medicamentos y seguimiento médico.',
         icon: 'tabler:chevrons-right',
       },
       {

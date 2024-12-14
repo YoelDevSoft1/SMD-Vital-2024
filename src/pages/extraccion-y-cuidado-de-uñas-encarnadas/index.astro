@@ -7,14 +7,14 @@ import Features from '~/components/widgets/Features.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Content from '~/components/widgets/Content.astro';
 
-
 import { headerData } from '~/navigation';
 import FAQs from '~/components/widgets/FAQs.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
   title: 'Extracción y Cuidado de Uñas Encarnadas | SMD Vital',
-  description: 'Tratamientos especializados para la extracción y cuidado de uñas encarnadas en Bogotá. Atención profesional y técnicas avanzadas para tu bienestar.',
+  description:
+    'Tratamientos especializados para la extracción y cuidado de uñas encarnadas en Bogotá. Atención profesional y técnicas avanzadas para tu bienestar.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -27,12 +27,12 @@ const metadata = {
         {
           variant: 'secondary',
           text: 'Emergencia',
-          href: '#',
+          href: 'tel:3042912564',
         },
         {
           variant: 'primary',
           text: 'WhatsApp',
-          href: '#',
+          href: 'https://wa.me/573042912564',
         },
       ]}
       isSticky
@@ -48,7 +48,7 @@ const metadata = {
       { variant: 'secondary', text: 'Agenda una cita', href: '#features' },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1606813902455-f2f9cce63c4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://images.pexels.com/photos/5619447/pexels-photo-5619447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Extracción y Cuidado de Uñas Encarnadas',
     }}
   >
@@ -58,7 +58,8 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Tratamientos profesionales con técnicas avanzadas para aliviar y prevenir uñas encarnadas.</span>
+        Tratamientos profesionales con técnicas avanzadas para aliviar y prevenir uñas encarnadas.</span
+      >
       Nuestro equipo está preparado para brindarte el mejor cuidado en cualquier situación.
     </Fragment>
   </Hero2>
@@ -84,8 +85,7 @@ const metadata = {
       },
       {
         title: 'Cuidado Post-Tratamiento',
-        description:
-          'Seguimiento detallado para garantizar una recuperación rápida y prevenir recurrencias.',
+        description: 'Seguimiento detallado para garantizar una recuperación rápida y prevenir recurrencias.',
         icon: 'tabler:writing',
       },
       {
@@ -105,8 +105,7 @@ const metadata = {
     items={[
       {
         title: 'Evaluación Inicial',
-        description:
-          'Diagnóstico preciso para determinar el grado y tratamiento adecuado para tu caso.',
+        description: 'Diagnóstico preciso para determinar el grado y tratamiento adecuado para tu caso.',
       },
       {
         title: 'Extracción Segura',
@@ -122,7 +121,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://images.pexels.com/photos/4989138/pexels-photo-4989138.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Servicios de Extracción y Cuidado de Uñas Encarnadas',
     }}
   />
@@ -140,7 +139,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1602524817158-3fa523c8a24b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      src: 'https://images.pexels.com/photos/3985168/pexels-photo-3985168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Alivio y Beneficios de Nuestros Tratamientos',
     }}
   >
@@ -169,7 +168,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1588776814546-9d3d5c6e3d3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1650&q=80',
+      src: 'https://images.pexels.com/photos/4021202/pexels-photo-4021202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Cuidado Integral del Pie',
     }}
   >
@@ -196,7 +195,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1580910051071-27834e0c52b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      src: 'https://images.pexels.com/photos/5207090/pexels-photo-5207090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       alt: 'Urgencias Podales',
     }}
   >
@@ -229,8 +228,7 @@ const metadata = {
       },
       {
         title: '¿Cómo puedo prevenir las uñas encarnadas?',
-        description:
-          'Mantén una buena higiene podal, corta las uñas rectas y evita usar calzado ajustado.',
+        description: 'Mantén una buena higiene podal, corta las uñas rectas y evita usar calzado ajustado.',
         icon: 'tabler:chevrons-right',
       },
     ]}

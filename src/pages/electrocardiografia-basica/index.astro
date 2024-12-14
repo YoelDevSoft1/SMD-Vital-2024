@@ -13,7 +13,8 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 
 const metadata = {
   title: 'Electrocardiografía Básica en Bogotá | SMD Vital',
-  description: 'Realiza tu electrocardiograma básico en Bogotá con SMD Vital. Servicios médicos a domicilio con equipos de alta precisión y personal capacitado.',
+  description:
+    'Realiza tu electrocardiograma básico en Bogotá con SMD Vital. Servicios médicos a domicilio con equipos de alta precisión y personal capacitado.',
   ignoreTitleTemplate: true,
 };
 ---
@@ -26,12 +27,12 @@ const metadata = {
         {
           variant: 'secondary',
           text: 'Emergencia',
-          href: '#',
+          href: 'tel:3042912564',
         },
         {
           variant: 'primary',
           text: 'WhatsApp',
-          href: '#',
+          href: 'https://wa.me/573042912564',
         },
       ]}
       isSticky
@@ -44,7 +45,7 @@ const metadata = {
     tagline="Confianza en Cada Latido"
     actions={[
       { variant: 'primary', target: '_blank', text: 'WhatsApp', href: 'https://wa.me/573042912564' },
-      { variant: 'secondary', text: 'Llamada de emergencia', href: '#features' },
+      { variant: 'secondary', text: 'Llamada de emergencia', href: 'tel:3042912564' },
     ]}
     image={{
       src: 'https://images.pexels.com/photos/7578808/pexels-photo-7578808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
@@ -57,7 +58,9 @@ const metadata = {
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        Con <span class="font-semibold">SMD Vital Bogotá</span>, realizamos electrocardiogramas en la comodidad de tu hogar.</span>
+        Con <span class="font-semibold">SMD Vital Bogotá</span>, realizamos electrocardiogramas en la comodidad de tu
+        hogar.</span
+      >
       Contamos con equipos avanzados y personal médico capacitado para resultados confiables y rápidos.
     </Fragment>
   </Hero2>
@@ -72,8 +75,7 @@ const metadata = {
     items={[
       {
         title: 'Equipos de Alta Tecnología',
-        description:
-          'Utilizamos dispositivos avanzados que garantizan mediciones precisas y confiables.',
+        description: 'Utilizamos dispositivos avanzados que garantizan mediciones precisas y confiables.',
         icon: 'tabler:layers-union',
       },
       {
@@ -83,8 +85,7 @@ const metadata = {
       },
       {
         title: 'Servicio a Domicilio',
-        description:
-          'Realizamos electrocardiogramas en tu hogar, evitando desplazamientos y largas esperas.',
+        description: 'Realizamos electrocardiogramas en tu hogar, evitando desplazamientos y largas esperas.',
         icon: 'tabler:writing',
       },
       {
@@ -228,8 +229,7 @@ const metadata = {
       },
       {
         title: '¿Cuánto tiempo toma obtener los resultados?',
-        description:
-          'Proporcionamos un informe detallado en un plazo corto, garantizando rapidez y precisión.',
+        description: 'Proporcionamos un informe detallado en un plazo corto, garantizando rapidez y precisión.',
         icon: 'tabler:chevrons-right',
       },
     ]}

@@ -147,32 +147,31 @@ export const footerData = {
   links: [
     {
       title: 'Servicio',
-      links: [
-        { text: 'Caracteristicas', href: '#' },
-      ],
+      links: [{ text: 'Caracteristicas', href: '/acerca' }],
     },
     {
       title: 'Plataforma',
       links: [
         { text: 'Nosotros', href: '/inicio/quienes-somos' },
-        { text: 'Vision', href: '#' },
-        { text: 'Mision', href: '#' },
-        { text: 'Filosofia', href: '#' },
+        { text: 'Vision', href: '/inicio/vision' },
+        { text: 'Mision', href: '/inicio/mision' },
+        { text: 'Filosofia', href: '/inicio/filosofia' },
       ],
     },
     {
       title: 'Suporte',
       links: [
-        { text: 'Comunidad Blog', href: '#' },
-        { text: 'Servicios profesionales', href: '#' },
+        { text: 'Comunidad Blog', href: '/blog' },
+        { text: 'Servicios profesionales', href: '/servicios' },
       ],
     },
     {
       title: 'Compañia',
       links: [
-        { text: 'Acerca', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Impacto Social', href: '#' },
+        { text: 'Acerca', href: '/acerca' },
+        { text: 'Blog', href: '/blog' },
+        { text: 'Precios', href: '/precios' },
+        { text: 'Contacto', href: '/contacto' },
       ],
     },
   ],
@@ -181,11 +180,11 @@ export const footerData = {
     { text: 'Politica de privacidad', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://x.com/smdvitalbogotaoficial' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/smdvitalbogota_/' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://www.facebook.com/profile.php?id=61556817451561' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://wa.link/7cprhk' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/YoelDevSoft1/SMD-Vital-2024' },
   ],
   footNote: `
     Hecho por <a class="text-blue-600 underline dark:text-muted" href="https://Yoel Dev Soft.com/"> Yoel Dev Soft</a> · Todos los derechos reservados.
